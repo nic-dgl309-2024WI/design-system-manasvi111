@@ -33,10 +33,12 @@ ol {
 .primary_bgcolor{
     background-color:#f1e1e1 ;
 }
-.primary_text{
+.primary__text{
+    color: azure;
     background-color:#464140 ;
 }
-.accent_color{
+.accent__color{
+    color: azure;
     background-color:#49033A ;
 }
 
@@ -45,6 +47,7 @@ ol {
 }
 
 .secondary__text{
+    color: azure;
     background-color:#8B4513 ;
 }
 

@@ -117,7 +117,7 @@
       display: block; /* Show side navbar on larger screens */
       height: 100%;
       width: 250px;
-      position: fixed;
+    
       top: 46px;
       left: 0;
       z-index: 1;
