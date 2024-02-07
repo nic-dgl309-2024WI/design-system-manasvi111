@@ -22,10 +22,13 @@
     text-decoration: none;
     color: var(--clr-primary); /* Using color variable */
 }
-
+/*.nav__links {
+    display: none;
+  }
 /* Hover state for navigation links */
 .nav__link:hover {
     color: var(--clr-accent); /* Using color variable */
+    background-color: var(--clr-white);
 }
 
 /* Active state for navigation links */
