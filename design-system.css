@@ -50,8 +50,8 @@
 
 /* Styles for Side navbar */
   .sidenav {
-    display: none;
-    background-color: var(--clr-primary);
+    
+    background-color: var(--clr-light);
     padding-top: 20px;
   }
   .sidenav p {
@@ -67,7 +67,7 @@
   
   .SN__links {
     text-decoration: none;
-    display: block;
+    display: none;
     color: var(--clr-primary);
   }
   .SN__link:hover {
