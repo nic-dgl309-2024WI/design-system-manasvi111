@@ -1,9 +1,9 @@
 :root{
-    --clr-primary: black;
-    --clr-secondary: #333;
-    --clr-accent: #333;
-    --clr-light: #f4f4f4;
-    --clr-white: white;
+    --clr-primary:#8B4513 ;
+    --clr-secondary: #464140;
+    --clr-accent: #49033A;
+    --clr-light: #c7c7c7;
+    --clr-white: #E6E6FA;
 }
 /* CSS reset*/
 html {
@@ -29,3 +29,23 @@ ul,
 ol {
     padding: 0;
 }
+
+.primary_bgcolor{
+    background-color:#f1e1e1 ;
+}
+.primary_text{
+    background-color:#464140 ;
+}
+.accent_color{
+    background-color:#49033A ;
+}
+
+.secondary_bgcolor{
+    background-color:#E6E6FA ;
+}
+
+.secondary__text{
+    background-color:#8B4513 ;
+}
+
+

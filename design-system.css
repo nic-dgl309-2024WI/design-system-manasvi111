@@ -101,7 +101,7 @@
     cursor: pointer;
     float: right;
   }
-
+ 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
     /* Top navbar */
@@ -110,7 +110,7 @@
     }
     .navbar{
       display: flex;
-      gap: 75%;
+      gap: 65%;
     }
     /* Side navbar */
     .sidenav {
