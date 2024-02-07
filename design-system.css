@@ -95,3 +95,9 @@
 .design-system:hover {
     color: var(--clr-accent); /* Using color variable */
 }
+
+/* Styles for the hamburger icon */
+.hamburger {
+    display: block;
+    cursor: pointer;
+  }
