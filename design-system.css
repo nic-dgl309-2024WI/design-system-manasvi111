@@ -1,0 +1,63 @@
+/* Formatting Specifications */
+
+/* BEM Naming Convention */
+/* Block: navbar */
+/* Element: navbar__link */
+
+/* Commented Rulesets with Explanation */
+/* Styles for the top-level navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--clr-light); /* Using color variable */
+    overflow: hidden;
+}
+
+/* Styles for navigation links */
+.nav__link {
+    text-decoration: none;
+    color: var(--clr-primary); /* Using color variable */
+}
+
+/* Hover state for navigation links */
+.nav__link:hover {
+    color: var(--clr-accent); /* Using color variable */
+}
+
+/* Active state for navigation links */
+.nav__link.active {
+    font-weight: bold;
+}
+
+/* Responsiveness */
+
+/* Mobile Layout */
+/* Following Normal Document Flow */
+/* Minimal Layout Properties, Padding, and Margins */
+
+/* Mobile Layout - Navbar */
+.navbar {
+    padding: 10px;
+}
+
+/* Mobile Layout - Navigation Links */
+.nav__link {
+    margin: 0 10px; /* Minimal margin */
+}
+
+/* Styles for the Design System text */
+.design-system {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--clr-primary); /* Using color variable */
+}
+
+/* Mobile Layout - Design System Text */
+.design-system {
+    font-size: 18px;
+}
+
+/* Styles for the hover state of the Design System text */
+.design-system:hover {
+    color: var(--clr-accent); /* Using color variable */
+}
