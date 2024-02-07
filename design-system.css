@@ -12,9 +12,13 @@
     background-color: var(--clr-light); /* Using color variable */
     overflow: hidden;
 }
-
+.nav__link--logo {
+    color: var(--clr-primary);
+    font-weight: lighter;
+  }
 /* Styles for navigation links */
 .nav__link {
+    padding: 12px 14px;
     text-decoration: none;
     color: var(--clr-primary); /* Using color variable */
 }
