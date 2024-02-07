@@ -8,7 +8,6 @@
 /* Styles for the top-level navigation */
 .navbar {
     display: flex;
-    justify-content: space-between;
     background-color: var(--clr-light); /* Using color variable */
     overflow: hidden;
 }
@@ -46,11 +45,12 @@
 .navbar {
     padding: 10px;
 }
-
+.nav__links{
+    display: none;
+}
 
 /* Styles for Side navbar */
   .sidenav {
-    
     background-color: var(--clr-light);
     padding-top: 20px;
   }
@@ -66,12 +66,11 @@
   }
   
   .SN__links {
-    text-decoration: none;
     display: none;
-    color: var(--clr-primary);
   }
   .SN__link:hover {
     color: var(--clr-secondary);
+    background-color: var(--clr-white);
   }
 
 /* Mobile Layout - Navigation Links */
@@ -100,4 +99,38 @@
 .hamburger {
     display: block;
     cursor: pointer;
+    float: right;
   }
+
+/* Media query for screens larger than 700px */
+@media screen and (min-width: 700px) {
+    /* Top navbar */
+    .nav__links {
+      display: block; /* Show top nav links on larger screens */
+    }
+    .navbar{
+      display: flex;
+      gap: 75%;
+    }
+    /* Side navbar */
+    .sidenav {
+      display: block; /* Show side navbar on larger screens */
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 46px;
+      left: 0;
+      z-index: 1;
+      background-color: var(--clr-light);
+    }
+    .SN__link {
+      display: block;
+    }
+    .SN__links {
+      display: none;
+    }
+    /* Hamburger icon */
+    .hamburger {
+      display: none; /* Hide hamburger icon on larger screens */
+    }
+  } 
