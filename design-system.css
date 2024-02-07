@@ -47,6 +47,36 @@
     padding: 10px;
 }
 
+
+/* Styles for Side navbar */
+.sidenav {
+    
+    background-color: var(--clr-primary);
+    padding-top: 20px;
+  }
+  
+  .sidenav p {
+    color: var(--clr-primary);
+  }
+  
+ 
+  
+  .SN__link {
+    color: var(--clr-light);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .SN__links {
+    text-decoration: none;
+    display: block;
+    color: var(--clr-primary);
+  }
+  .SN__link:hover {
+    color: var(--clr-secondary);
+  }
+
 /* Mobile Layout - Navigation Links */
 .nav__link {
     margin: 0 10px; /* Minimal margin */
