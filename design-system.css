@@ -49,20 +49,17 @@
 
 
 /* Styles for Side navbar */
-.sidenav {
-    
+  .sidenav {
+    display: none;
     background-color: var(--clr-primary);
     padding-top: 20px;
   }
-  
   .sidenav p {
     color: var(--clr-primary);
+    
   }
-  
- 
-  
   .SN__link {
-    color: var(--clr-light);
+    color: var(--clr-primary);
     text-decoration: none;
     display: block;
     margin-bottom: 5px;
