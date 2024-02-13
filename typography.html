@@ -5,33 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="design-system.css" />
+
     <!--Fonts : Protest strike-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto&display=swap" rel="stylesheet">
 
-    <!--Fonts: -->
-    
+    <!--Fonts: Protest Strike (Regular)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
     <title>Design System</title>
   </head>
   <body>
     <!--Top navbar-->
     <div class="mainNav" id="myMainnav">
-      <a href="#" class="mainNav__link mainNav__link--logo">Design System</a>
-
-      <!-- Hamburger icon -->
-      <span class="toggle-nav" onclick="toggleNav()">
-        <span class="hamburger">&#9776;</span>
-        <!-- Cancel icon initially hidden -->
-        <span class="cancel" style="display: none">&#10006;</span>
-      </span>
-
-      <!--Other pages-->
-      <div class="mainNav__links">
-        <a href="about-me.html" class="mainNav__link">About Me</a>
-        <a href="#" class="mainNav__link">Demo Site</a>
-      </div>
-    </div>
+        <a href="#" class="mainNav__link mainNav__link--logo">Design System</a>
+  
+        <!-- Hamburger icon -->
+        <span class="toggle-nav" onclick="toggleNav()">
+          <span class="hamburger">&#9776;</span>
+          <!-- Cancel icon initially hidden -->
+          <span class="cancel" style="display: none">&#10006;</span>
+        </span>
+  
+        <!--Other pages-->
+        <div class="mainNav__links">
+          <a href="about-me.html" class="mainNav__link">About Me</a>
+          <a href="#" class="mainNav__link">Demo Site</a>
+        </div>
+      </div>  
 
     <!--Side navbar-->
     <div class="sidenav" id="mySidenav">
@@ -62,15 +66,18 @@
         <li><a href="#" class="sidenav__link">13 Carousel</a></li>
         <li><a href="#" class="sidenav__link">14 Slats</a></li>
         <li><a href="#" class="sidenav__link">15 Footer</a></li><br>
-
+        
         <p>Components</p>
         <li><a href="#" class="sidenav__link">16 Cards</a></li>
         <li><a href="#" class="sidenav__link">17 Forms</a></li>
         <li><a href="#" class="sidenav__link">18 Accordion</a></li>
-        <li><a href="#" class="sidenav__link">19 lists</a></li>
-
+        <li><a href="#" class="sidenav__link">19 lists</a></li><br>
       </ul>
     </div>
+
+    <h1 class="heading">Typography</h1>
+    <p class="paragraph">This is a sample paragraph using Google Fonts.</p>
+
 
     <script src="design-system.js"></script>
   </body>

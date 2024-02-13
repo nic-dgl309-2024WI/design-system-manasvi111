@@ -4,7 +4,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Add 'active' class to the current page link
     var currentPage = window.location.href;
-    var links = document.querySelectorAll(".nav__link, .SN__link");
+    var links = document.querySelectorAll(".mainNav__link, .sidenav__link");
   
     links.forEach(function (link) {
       if (link.href === currentPage) {
@@ -14,19 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   
   function toggleNav() {
-    var sidenav = document.getElementById("Sidenav");
+    var sidenav = document.getElementById("mySidenav");
     var hamburger = document.querySelector(".hamburger");
     var cancel = document.querySelector(".cancel");
-
+  
     // Toggle the side navbar
-    if (sidenav.style.display === "block") {
-        sidenav.style.display = "none";
-        hamburger.style.display = "inline-block";
-        cancel.style.display = "none";
-    } else {
-        sidenav.style.display = "block";
-        hamburger.style.display = "none";
-        cancel.style.display = "inline-block";
-    }
-}
+    sidenav.style.display = sidenav.style.display === "block" ? "none" : "block";
+  
+    // Toggle the visibility of hamburger and cancel icons
+    hamburger.style.display =
+      hamburger.style.display === "none" ? "inline-block" : "none";
+    cancel.style.display =
+      cancel.style.display === "none" ? "inline-block" : "none";
+  }
   

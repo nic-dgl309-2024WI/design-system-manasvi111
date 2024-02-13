@@ -1,8 +1,8 @@
 :root{
-    --clr-primary:#8B4513 ;
+    --clr-primary:#FFFFFF ; /*Nav text color*/
     --clr-secondary: #464140;
-    --clr-accent: #49033A;
-    --clr-light: #c7c7c7;
+    --clr-accent: #49033A; /*For CTA*/
+    --clr-universal: #a28bad; /* Navbar color (#a28bad, dark red(8B0000),  ) */
     --clr-white: #E6E6FA;
 }
 /* CSS reset*/
@@ -30,8 +30,10 @@ ol {
     padding: 0;
 }
 
+
+/* color pallete (swatches) */
 .primary_bgcolor{
-    background-color:#f1e1e1 ;
+    background-color:#FFFFFF ;
 }
 .primary__text{
     color: azure;
@@ -41,14 +43,28 @@ ol {
     color: azure;
     background-color:#49033A ;
 }
-
 .secondary_bgcolor{
-    background-color:#E6E6FA ;
+    color: #FFFFFF;
+    background-color:#a28bad ;
 }
 
 .secondary__text{
-    color: azure;
-    background-color:#8B4513 ;
+    background-color:#E6E6FA ;
 }
+
+/* Typography classes */
+.heading {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .paragraph {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+
 
 

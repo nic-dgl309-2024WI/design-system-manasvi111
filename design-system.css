@@ -1,136 +1,97 @@
-/* Formatting Specifications */
-
-/* BEM Naming Convention */
-/* Block: navbar */
-/* Element: navbar__link */
-
-/* Commented Rulesets with Explanation */
-/* Styles for the top-level navigation */
-.navbar {
+/* Styles for Top navbar */
+.mainNav {
     display: flex;
-    background-color: var(--clr-light); /* Using color variable */
+    justify-content: space-between;
+    background-color: var(--clr-universal);
     overflow: hidden;
-}
-.nav__link--logo {
+  }
+  
+  .mainNav__link--logo {
     color: var(--clr-primary);
     font-weight: lighter;
   }
-/* Styles for navigation links */
-.nav__link {
-    padding: 12px 14px;
+  
+  .mainNav__link {
+    color: var(--clr-primary);
     text-decoration: none;
-    color: var(--clr-primary); /* Using color variable */
-}
-/*.nav__links {
+    padding: 14px 16px;
+  }
+  
+  .mainNav__links {
     display: none;
   }
-/* Hover state for navigation links */
-.nav__link:hover {
-    color: var(--clr-accent); /* Using color variable */
-    background-color: var(--clr-white);
-}
-
-/* Active state for navigation links */
-.nav__link.active {
-    font-weight: bold;
-}
-
-/* Responsiveness */
-
-/* Mobile Layout */
-/* Following Normal Document Flow */
-/* Minimal Layout Properties, Padding, and Margins */
-
-/* Mobile Layout - Navbar */
-.navbar {
-    padding: 10px;
-}
-.nav__links{
-    display: none;
-}
-
-/* Styles for Side navbar */
+  
+  .mainNav__link:hover {
+    color: var(--clr-primary);
+    background-color: var(--clr-secondary);
+  }
+  
+  /* Styles for Side navbar */
   .sidenav {
-    background-color: var(--clr-light);
+    display: none;
+    background-color: var(--clr-universal);
     padding-top: 20px;
   }
+  
   .sidenav p {
     color: var(--clr-primary);
-    
   }
-  .SN__link {
+  
+  .sidenav__list {
+    list-style-type: none;
+  }
+  
+  .sidenav__link {
     color: var(--clr-primary);
     text-decoration: none;
     display: block;
     margin-bottom: 5px;
   }
   
-  .SN__links {
-    display: none;
+  .sidenav__links {
+    text-decoration: none;
+    display: block;
+    color: var(--clr-primary);
   }
-  .SN__link:hover {
+  .sidenav__link:hover {
     color: var(--clr-secondary);
-    background-color: var(--clr-white);
   }
-
-/* Mobile Layout - Navigation Links */
-.nav__link {
-    margin: 0 10px; /* Minimal margin */
-}
-
-/* Styles for the Design System text */
-.design-system {
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--clr-primary); /* Using color variable */
-}
-
-/* Mobile Layout - Design System Text */
-.design-system {
-    font-size: 18px;
-}
-
-/* Styles for the hover state of the Design System text */
-.design-system:hover {
-    color: var(--clr-accent); /* Using color variable */
-}
-
-/* Styles for the hamburger icon */
-.hamburger {
+  
+  /* Styles for the hamburger icon */
+  .hamburger {
     display: block;
     cursor: pointer;
-    float: right;
   }
- 
-/* Media query for screens larger than 700px */
-@media screen and (min-width: 700px) {
+  
+  /* Media query for screens larger than 700px */
+  @media screen and (min-width: 700px) {
     /* Top navbar */
-    .nav__links {
+    /* Hamburger icon */
+    .hamburger {
+        display: none; /* Hide hamburger icon on larger screens */
+      }
+    .mainNav__links {
       display: block; /* Show top nav links on larger screens */
     }
-    .navbar{
-      display: flex;
-      gap: 65%;
-    }
+    .sidenav__links {
+        display: none;
+      }
+    .sidenav__link {
+        display: block;
+      }
     /* Side navbar */
     .sidenav {
       display: block; /* Show side navbar on larger screens */
       height: 100%;
       width: 250px;
-    
       top: 46px;
       left: 0;
       z-index: 1;
-      background-color: var(--clr-light);
+      background-color: var(--clr-universal);
     }
-    .SN__link {
-      display: block;
+    .sidenav .main_content{
+        width: 100%;
+        margin-left: 200px;
     }
-    .SN__links {
-      display: none;
-    }
-    /* Hamburger icon */
-    .hamburger {
-      display: none; /* Hide hamburger icon on larger screens */
-    }
-  } 
+  }
+  
