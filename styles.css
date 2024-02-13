@@ -59,11 +59,12 @@ ol {
     font-style: normal;
   }  
 
-  .paragraph {
-    font-family: "Protest Strike", sans-serif;
-    font-weight: 100;
+.paragraph {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
     font-style: normal;
-  }
+}
+  
   
 
 
