@@ -6,6 +6,10 @@
   overflow: hidden;
   font-family: var(--ff-merri);
   font-weight: var(--fw-700);
+  position: fixed; /* Fix the navbar at the top */
+  width: 100%; /* Occupy full width */
+  top: 0; /* Position at the top */
+  z-index: 1000; /* Ensure the navbar is above other content */
 }
 
 .mainNav__link--logo {
@@ -108,6 +112,7 @@ tr:hover {
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */
+  
   /* Hamburger icon */
   .hamburger {
       display: none; /* Hide hamburger icon on larger screens */
