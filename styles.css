@@ -1,9 +1,9 @@
 :root{
-    --clr-primary:#FFFFFF ; /*Nav text color*/
-    --clr-secondary: #464140;
+    --clr-white:#FFFFFF ; /*Nav text color*/
+    --clr-dgray: #464140;
     --clr-accent: #49033A; /*For CTA*/
     --clr-universal: #a28bad; /* Navbar color (#a28bad, dark red(8B0000),  ) */
-    --clr-white: #E6E6FA;
+    --clr-lblue: #E6E6FA;
 }
 /* CSS reset*/
 html {
@@ -33,11 +33,11 @@ ol {
 
 /* color pallete (swatches) */
 .u-bg{
-    background-color:var(--clr-white) ;
+    background-color:var(--clr-lblue) ;
 }
 .u-text{
     color: azure;
-    background-color: var(--clr-secondary);
+    background-color: var(--clr-dgray);
 }
 .u-accent-cta{
     color: azure;
@@ -48,7 +48,7 @@ ol {
     background-color: var(--clr-universal);
 }
 .u-universal-text{
-    background-color: var(--clr-primary);
+    background-color: var(--clr-white);
 }
 
 /* Typography font family classes */

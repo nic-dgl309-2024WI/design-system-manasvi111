@@ -7,12 +7,12 @@
   }
   
   .mainNav__link--logo {
-    color: var(--clr-primary);
+    color: var(--clr-white);
     font-weight: lighter;
   }
   
   .mainNav__link {
-    color: var(--clr-primary);
+    color: var(--clr-white);
     text-decoration: none;
     padding: 14px 16px;
   }
@@ -22,8 +22,8 @@
   }
   
   .mainNav__link:hover {
-    color: var(--clr-primary);
-    background-color: var(--clr-secondary);
+    color: var(--clr-white);
+    background-color: var(--clr-dgray);
   }
   
   /* Styles for Side navbar */
@@ -34,7 +34,7 @@
   }
   
   .sidenav p {
-    color: var(--clr-primary);
+    color: var(--clr-white);
   }
   
   .sidenav__list {
@@ -42,7 +42,7 @@
   }
   
   .sidenav__link {
-    color: var(--clr-primary);
+    color: var(--clr-white);
     text-decoration: none;
     display: block;
     margin-bottom: 5px;
@@ -51,17 +51,20 @@
   .sidenav__links {
     text-decoration: none;
     display: block;
-    color: var(--clr-primary);
+    color: var(--clr-white);
   }
   .sidenav__link:hover {
-    color: var(--clr-secondary);
+    color: var(--clr-dgray);
+  }
+  .sidenav__links:hover {
+    color: var(--clr-dgray);
   }
   
   /* Styles for the hamburger icon */
   .hamburger {
     display: block;
     cursor: pointer;
-    color: var(--clr-primary);
+    color: var(--clr-white);
   }
   th, td {
     border: 1px solid var(--clr-universal);
@@ -74,7 +77,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: var(--clr-primary);
+    background-color: var(--clr-white);
 }
 
 tr:hover {
@@ -127,7 +130,7 @@ tr:hover {
     }
     
     tr:nth-child(even) {
-        background-color: var(--clr-primary);
+        background-color: var(--clr-white);
     }
     
     tr:hover {
