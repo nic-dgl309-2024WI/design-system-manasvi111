@@ -8,7 +8,7 @@
   }
   
   .mainNav__link--logo {
-    color: var(--clr-white);
+    color: var(--clr-white-text);
     font-weight: lighter;
   }
   
@@ -48,12 +48,21 @@
     display: block;
     margin-bottom: 5px;
   }
+  .sidenav__link.active {
+    font-weight: bold; /* Example style for the active link */
+    color: var(--clr-dgray) /* Example color for the active link */
+}
   
   .sidenav__links {
     text-decoration: none;
     display: block;
     color: var(--clr-white);
   }
+  .sidenav__links.active {
+    font-weight: bold; /* Example style for the active link */
+    color: var(--clr-dgray) /* Example color for the active link */
+}
+  
   .sidenav__link:hover {
     color: var(--clr-dgray);
   }

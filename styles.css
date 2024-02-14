@@ -1,10 +1,19 @@
 :root{
-    --clr-white:#FFFFFF ; /*Nav text color*/
+    --clr-white:#FFFFFF; 
+    --clr-white-text: #FFFFFF;
     --clr-dgray: #464140;
-    --clr-accent: #49033A; /*For CTA*/
-    --clr-universal: #a28bad; /* Navbar color (#a28bad, dark red(8B0000),  ) */
-    --clr-lblue: #E6E6FA;
+    --clr-accent: #49033A; 
+    --clr-universal: #a28bad; 
+    --clr-lgray: #e0e0e7;
+
+    /*Typography variables*/
+   --ff-merri: font-family: "Merriweather", serif;
+   --ff-roboto: font-family: "Roboto", sans-serif;
+   --fw-300: font-family: "Merriweather", serif; font-weight: 300; font-style: normal;
+   --fw-400: font-family: "Roboto", serif; font-weight: 300; font-style: normal;
+   --fw-700: font-family: "Merriweather", serif; font-weight: 700; font-style: normal;
 }
+
 /* CSS reset*/
 html {
     box-sizing: border-box;
@@ -56,17 +65,14 @@ ol {
 
 /* Typography font family classes */
 /*Merriweather font family*/
-.u-ff-merriweather{font-family: "Merriweather", serif;}
+.u-ff-merriweather{font-family: var(--ff-merri)}
 
 /*Roboto font family*/
-.u-ff-roboto{font-family: "Roboto", sans-serif;}
+.u-ff-roboto{font-family: var(--ff-roboto)}
 
 /* Typography font weight and style classes */
 /*Merriweather, font weight 700 for headings*/
-.u-ff-merriweather-700{
-    font-weight: 700;
-    font-style: normal;
-}
+.u-ff-merriweather-700{font-weight: var(--ff);}
 /*Merriweather, font weight 300 for sub headings*/
 .u-ff-merriweather-300{
     font-weight: 300;
@@ -82,7 +88,3 @@ ol {
 .u-letterspace{
     letter-spacing: 2px;
 }
-  
-
-
-
