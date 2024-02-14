@@ -99,7 +99,7 @@
     }
     
     th, td {
-        border: 1px solid #ddd;
+        border: 1px solid var(--clr-universal);
         padding: 8px;
         text-align: left;
     }
@@ -109,11 +109,11 @@
     }
     
     tr:nth-child(even) {
-        background-color: #f2f2f2;
+        background-color: var(--clr-primary);
     }
     
     tr:hover {
-        background-color: #ddd;
+        background-color: var(--clr-universal);
     }
     
   }
