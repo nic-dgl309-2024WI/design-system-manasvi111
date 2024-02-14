@@ -32,24 +32,20 @@ ol {
 
 
 /* color pallete (swatches) */
-.primary_bgcolor{
+.u-universal-bg{
     background-color:#FFFFFF ;
 }
-.primary__text{
+.u-universal-text{
     color: azure;
     background-color:#464140 ;
 }
-.accent__color{
+.u-accent-cta{
     color: azure;
     background-color:#49033A ;
 }
-.secondary_bgcolor{
+.u-universal{
     color: #FFFFFF;
     background-color:#a28bad ;
-}
-
-.secondary__text{
-    background-color:#E6E6FA ;
 }
 
 /* Typography font family classes */
