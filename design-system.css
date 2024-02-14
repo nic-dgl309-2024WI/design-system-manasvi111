@@ -38,6 +38,8 @@
 .sidenav {
   display: none;
   background-color: var(--clr-universal);
+  padding-top: 40px;
+  z-index: 5; /* Add this line to increase the z-index */
 }
 
 .sidenav p {
@@ -65,7 +67,6 @@
   display: block;
   font-family: var(--ff-merri);
   color: var(--clr-white);
-  padding-top: 7%;
 }
 .sidenav__link-heading{
   font-family: var(--ff-merri);
@@ -94,11 +95,13 @@ th, td {
   border: 1px solid var(--clr-universal);
   padding: 8px;
   text-align: left;
+  font-size: 20px;
 }
 
 th {
   background-color: var(--clr-universal);
   color: var(--clr-white-text);
+  font-size: 20px;
 }
 
 tr:nth-child(even) {
@@ -125,7 +128,6 @@ tr:hover {
   }
   .sidenav__links {
       display: none;
-
     }
   .sidenav__link {
       display: block;
@@ -140,6 +142,7 @@ tr:hover {
     left: 0;
     z-index: 1;
     background-color: var(--clr-universal);
+    padding-top: 0; /* Remove padding-top */
   }
 
   table {
