@@ -32,6 +32,7 @@ ol {
 
 
 /* color pallete (swatches) */
+/*For body background and text color*/
 .u-bg{
     background-color:var(--clr-lblue) ;
 }
@@ -39,10 +40,12 @@ ol {
     color: azure;
     background-color: var(--clr-dgray);
 }
+/*GFor CTA*/
 .u-accent-cta{
     color: azure;
     background-color:var(--clr-accent) ;
 }
+/*For universal contents(header, footer)*/
 .u-universal-bg{
     color: #FFFFFF;
     background-color: var(--clr-universal);
