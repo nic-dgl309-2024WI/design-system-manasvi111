@@ -1,4 +1,5 @@
 :root{
+    /*Color variales*/
     --clr-white:#FFFFFF; 
     --clr-white-text: #FFFFFF;
     --clr-dgray: #464140;
@@ -7,11 +8,14 @@
     --clr-lgray: #e0e0e7;
 
     /*Typography variables*/
-   --ff-merri: font-family: "Merriweather", serif;
-   --ff-roboto: font-family: "Roboto", sans-serif;
-   --fw-300: font-family: "Merriweather", serif; font-weight: 300; font-style: normal;
-   --fw-400: font-family: "Roboto", serif; font-weight: 300; font-style: normal;
-   --fw-700: font-family: "Merriweather", serif; font-weight: 700; font-style: normal;
+   --ff-merri: "Merriweather", serif;
+   --ff-roboto:  "Roboto", sans-serif;
+   --fw-300:  "Merriweather", serif; font-weight: 300; font-style: normal;
+   --fw-400:  "Roboto", serif; font-weight: 400; font-style: normal;
+   --fw-700: "Merriweather", serif; font-weight: 700; font-style: normal;
+
+   /**/
+   --fo-ls:  2px;
 }
 
 /* CSS reset*/
@@ -72,19 +76,11 @@ ol {
 
 /* Typography font weight and style classes */
 /*Merriweather, font weight 700 for headings*/
-.u-ff-merriweather-700{font-weight: var(--ff);}
+.u-ff-merriweather-700{font-weight: var(--fw-700);}
 /*Merriweather, font weight 300 for sub headings*/
-.u-ff-merriweather-300{
-    font-weight: 300;
-    font-style: normal;
-}
+.u-ff-merriweather-300{font-weight: var(--fw-300);}
 /*Roboto, font weight 300 for text content*/
-.u-ff-roboto-400{
-  font-weight: 400;
-  font-style: normal;
-}
+.u-ff-roboto-400{font-weight: var(--fw-400);}
 
 /*Letter space*/
-.u-letterspace{
-    letter-spacing: 2px;
-}
+.u-letterspace{letter-spacing: var(--fo-ls)}

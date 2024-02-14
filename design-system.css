@@ -4,12 +4,15 @@
     justify-content: space-between;
     background-color: var(--clr-universal);
     overflow: hidden;
-    font-family: var();
+    font-family: var(--ff-merri);
+    font-weight: var(--fw-700);
   }
   
   .mainNav__link--logo {
     color: var(--clr-white-text);
     font-weight: lighter;
+    font-family: var(--ff-merri);
+    font-weight: var(--fw-700);
   }
   
   .mainNav__link {
@@ -45,6 +48,7 @@
   .sidenav__link {
     color: var(--clr-white);
     text-decoration: none;
+    font-family: var(--ff-merri);
     display: block;
     margin-bottom: 5px;
   }
@@ -56,7 +60,13 @@
   .sidenav__links {
     text-decoration: none;
     display: block;
+    font-family: var(--ff-merri);
     color: var(--clr-white);
+  }
+  .sidenav__link-heading{
+    font-family: var(--ff-merri);
+    color: var(--clr-white);
+    letter-spacing: 1px;
   }
   .sidenav__links.active {
     font-weight: bold; /* Example style for the active link */
@@ -84,6 +94,7 @@
 
 th {
     background-color: var(--clr-universal);
+    color: var(--clr-white-text);
 }
 
 tr:nth-child(even) {
