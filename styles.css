@@ -47,7 +47,7 @@ ol {
 /* color pallete (swatches) */
 /*For body background and text color*/
 .u-bg{
-    background-color:var(--clr-lblue) ;
+    background-color:var(--clr-lgray) ;
 }
 .u-text{
     color: azure;
