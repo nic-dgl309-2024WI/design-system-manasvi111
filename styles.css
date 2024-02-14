@@ -53,18 +53,24 @@ ol {
 }
 
 /* Typography font family classes */
+/*Merriweather font family*/
 .u-ff-merriweather{font-family: "Merriweather", serif;}
+
+/*Roboto font family*/
 .u-ff-roboto{font-family: "Roboto", sans-serif;}
 
 /* Typography font weight and style classes */
+/*Merriweather, font weight 700 for headings*/
 .u-ff-merriweather-700{
     font-weight: 700;
     font-style: normal;
 }
+/*Merriweather, font weight 300 for sub headings*/
 .u-ff-merriweather-300{
     font-weight: 300;
     font-style: normal;
 }
+/*Roboto, font weight 300 for text content*/
 .u-ff-roboto-400{
   font-weight: 400;
   font-style: normal;
