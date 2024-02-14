@@ -61,6 +61,7 @@
   .hamburger {
     display: block;
     cursor: pointer;
+    color: var(--clr-primary);
   }
   th, td {
     border: 1px solid var(--clr-universal);
