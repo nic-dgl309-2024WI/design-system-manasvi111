@@ -52,19 +52,23 @@ ol {
     background-color:#E6E6FA ;
 }
 
-/* Typography classes */
-.heading {
-    font-family: "Merriweather", serif;
+/* Typography font family classes */
+.u-ff-merriweather{font-family: "Merriweather", serif;}
+.u-ff-roboto{font-family: "Roboto", sans-serif;}
+
+/* Typography font weight and style classes */
+.u-ff-merriweather-700{
     font-weight: 700;
     font-style: normal;
-  }  
-
-.paragraph {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
+}
+.u-ff-merriweather-300{
+    font-weight: 300;
     font-style: normal;
 }
-  
+.u-ff-roboto-400{
+  font-weight: 400;
+  font-style: normal;
+}
   
 
 

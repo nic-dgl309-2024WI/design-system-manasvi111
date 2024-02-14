@@ -6,15 +6,10 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="design-system.css" />
 
-    <!--Fonts : Merriweather (heading)-->
+    <!--Fonts : Merriweather and Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Protest+Strike&family=Roboto:wght@500&display=swap" rel="stylesheet">
-
-    <!--Fonts: Merriweather (Regular paragraph content)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Protest+Strike&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Protest+Strike&family=Roboto&display=swap" rel="stylesheet">
 
     <title>Design System</title>
   </head>
@@ -84,6 +79,7 @@
                 <th>Font Weight</th>
                 <th>Font Size</th>
                 <th>Font Style</th>
+                <th>Font Use</th>
             </tr>
         </thead>
         <tbody>
@@ -93,31 +89,47 @@
                 <td>700</td>
                 <td>16px</td>
                 <td>Normal</td>
+                <td>For Headings</td>
             </tr>
             <tr>
-                <td>Open Sans</td>
-                <td>'Open Sans', sans-serif</td>
+                <td>Merriweather</td>
+                <td>Merriweather, serif</td>
                 <td>400</td>
-                <td>14px</td>
-                <td>Italic</td>
+                <td>16px</td>
+                <td>Normal</td>
+                <td>For subheading</td>
+            </tr>
+            <tr>
+                <td>Roboto</td>
+                <td>Roboto</td>
+                <td>400</td>
+                <td>16px</td>
+                <td>Normal</td>
+                <td>For text</td>
             </tr>
         </tbody>
-    </table>
-    <p>To understand the example better, we have added borders to the table.</p>
+    </table><br>
+
+    <p class="u-ff-roboto">To understand the look of the font better, Here is the letters of each font style.</p><br>
 
 
-    <h2>Merriweather - Bold</h2>
-    <h3 class="heading">Heading Fonts</h3>
-    <p class="heading">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-    <p class="heading">abcdefghijklmnopqrstuvwxyz</p>
-    <p class="heading">0123456789</p><br>
+    <h2 class="u-ff-merriweather u-ff-merriweather-700">Merriweather - Bold</h2>
+    <h3 class="u-ff-merriweather u-ff-merriweather-700">Heading Fonts</h3>
+    <p class="u-ff-merriweather u-ff-merriweather-700">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+    <p class="u-ff-merriweather u-ff-merriweather-700">abcdefghijklmnopqrstuvwxyz</p>
+    <p class="u-ff-merriweather u-ff-merriweather-700">0123456789</p><br>
 
-    <h2 class="paragraph">Merriweather - Regular</h2>
-    <h2 class="paragraph"> Body Fonts</h2>
-    <p class="paragraph">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-    <p class="paragraph">abcdefghijklmnopqrstuvwxyz</p>
-    <p class="paragraph">0123456789</p>
+    <h2 class="u-ff-merriweather u-ff-merriweather-300">Merriweather - Regular</h2>
+    <h2 class="u-ff-merriweather u-ff-merriweather-300">Sub Heading Fonts</h2>
+    <p class="u-ff-merriweather u-ff-merriweather-300">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+    <p class="u-ff-merriweather u-ff-merriweather-300">abcdefghijklmnopqrstuvwxyz</p>
+    <p class="u-ff-merriweather u-ff-merriweather-300">0123456789</p><br>
 
+    <h2 class="u-ff-roboto u-ff-roboto-400">Roboto - Regular</h2>
+    <h2 class="u-ff-roboto u-ff-roboto-400">Body Fonts</h2>
+    <p class="u-ff-roboto u-ff-roboto-400">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+    <p class="u-ff-roboto u-ff-roboto-400">abcdefghijklmnopqrstuvwxyz</p>
+    <p class="u-ff-roboto u-ff-roboto-400">0123456789</p>
 
     <script src="design-system.js"></script>
   </body>
