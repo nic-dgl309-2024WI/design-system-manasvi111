@@ -104,6 +104,13 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ecd2f7;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+
+
   
   /* Media query for screens larger than 700px */
   @media screen and (min-width: 700px) {
@@ -156,6 +163,11 @@ tr:hover {
     
     tr:hover {
         background-color: #ecd2f7;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
     }
     
   }
