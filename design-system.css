@@ -62,6 +62,23 @@
     display: block;
     cursor: pointer;
   }
+  th, td {
+    border: 1px solid var(--clr-universal);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--clr-universal);
+}
+
+tr:nth-child(even) {
+    background-color: var(--clr-primary);
+}
+
+tr:hover {
+    background-color: #ecd2f7;
+}
   
   /* Media query for screens larger than 700px */
   @media screen and (min-width: 700px) {
