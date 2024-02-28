@@ -16,13 +16,13 @@
    --ff-lato: "Lato", serif;
    --ff-nunito: "Nunito", sans-serif;
    --fw-700: 700;
-   --fw-600: font-weight: 600; 
-   --fw-400: font-weight: 400;
-   --fs-regular: font-style: normal;
-   --fs-bold: font-style: bold;
-   --ft-ptsize: font-size: 24px;
-   --ft-latosize: font-size: 18px;
-   --ft-nnsize: font-size: 16px;
+   --fw-600: 600; 
+   --fw-400: 400;
+   --fs-regular: normal;
+   --fs-bold: bold;
+   --ft-ptsize: 24px;
+   --ft-latosize: 20px;
+   --ft-nnsize: 18px;
 
    /*Letter spacing*/
    --fo-ls:  1px;
@@ -98,5 +98,11 @@ ol {
 .u-ff-nunito-400{font-weight: var(--fw-400);}
 
 
+.u-ft-ptsize{font-size: var(--ft-ptsize);}
+.u-ft-latosize{font-size: var(--ft-latosize);}
+.u-ft-nnsize{font-size: var(--ft-nnsize);}
+
+.u-ft-bold{font-style: var(--fs-bold);}
+.u-ft-regular{font-style: var(--fs-regular);}
 /*Letter space*/
 .u-letterspace{letter-spacing: var(--fo-ls)}
