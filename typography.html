@@ -6,10 +6,20 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="design-system.css" />
 
-    <!--Fonts : Merriweather and Roboto-->
+    <!--Pt sans-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Protest+Strike&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,600;1,6..12,600&family=PT+Sans:wght@400;700&family=Protest+Strike&family=Roboto&display=swap" rel="stylesheet">
+
+    <!--Lato 400 regular-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700;900&family=Protest+Strike&family=Roboto&display=swap" rel="stylesheet">
+
+    <!--Nunito sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,600;1,6..12,600&family=Protest+Strike&family=Roboto&display=swap" rel="stylesheet">
 
     <title>Design System</title>
   </head>
@@ -74,7 +84,7 @@
     <!--Typography page-->
     <!--Used container to display content besides the sidenav-->
     <div class="container">
-    <p class="u-ff-merriweather u-ff-merriweather-700" style="font-size: 1.7rem;">Font Family</p><br>
+    <p class="u-ff-pt u-ff-pt-700" style="font-size: 1.7rem;">Font Family</p><br>
     <!--This table is only to display the description of the Font family-->
     <table>
         <thead>
@@ -90,30 +100,30 @@
         <tbody>
             <!--Font Type 1: Merriweather, serif (only for the Headings)-->
             <tr>
-                <td>Merriweather</td>
-                <td>Merriweather, serif</td>
+                <td>PT</td>
+                <td>PT, Sans</td>
                 <td>700</td>
                 <td>16px</td>
-                <td>Normal</td>
+                <td>Bold</td>
                 <td>For Headings</td>
             </tr>
-            <!--Font Type 2: Merriweather, serif (only for the sub headings)-->
+            <!--Font Type 2: Nunito, Sans (only for the sub headings)-->
             <tr>
-                <td>Merriweather</td>
-                <td>Merriweather, serif</td>
-                <td>400</td>
+                <td>Nunito</td>
+                <td>Nunito, Sans</td>
+                <td>600</td>
                 <td>16px</td>
-                <td>Normal</td>
+                <td>Semi-bold</td>
                 <td>For subheading</td>
             </tr>
-            <!--Font Type 3: Roboto (only for the text)-->
+            <!--Font Type 3: Lato (only for the text)-->
             <tr>
-                <td>Roboto</td>
-                <td>Roboto</td>
+                <td>Lato</td>
+                <td>Lato</td>
                 <td>400</td>
                 <td>16px</td>
                 <td>Normal</td>
-                <td>For text</td>
+                <td>For body text</td>
             </tr>
         </tbody>
     </table><br>
@@ -129,65 +139,71 @@
         </thead>
         <tbody>
             <tr>
-                <!--Merriweather fonts-->
-                <td>.u-ff-merriweather</td>
-                <td>All the fonts of Merriweather font family.</td>
-                <td class="u-ff-merriweather">Merriweather Text</td>
+                <!--PT sans fonts-->
+                <td>.u-ff-pt</td>
+                <td>All the heading fonts of PT sans font family.</td>
+                <td class="u-ff-pt ">Headings</td>
             </tr>
             <tr>
-                <!--Roboto fonts-->
-                <td>.u-ff-roboto</td>
-                <td>All the fonts of Roboto font family.</td>
-                <td class="u-ff-roboto">Roboto Text</td>
+                <!--Lato fonts-->
+                <td>.u-ff-lato</td>
+                <td>All the sub heading fonts of Lato font family.</td>
+                <td class="u-ff-lato u-ff-lato-600">Sub-headings</td>
+            </tr>
+            <tr>
+                <!--Nunito fonts-->
+                <td>.u-ff-nunito</td>
+                <td>All the body text of Nunito font family.</td>
+                <td class="u-ff-nunito u-ff-nunito-400">Body text</td>
             </tr>
             <tr>
                 <!--Font weight of the Merriweather fonts (700)-->
-                <td>.u-ff-merriweather-700 </td>
+                <td>.u-ff-pt-700 </td>
                 <td>For all the headings.</td>
-                <td class="u-ff-merriweather u-ff-merriweather-700"> For Headings</td>
+                <td class="u-ff-pt u-ff-pt-700"> For Headings</td>
             </tr>
             <tr>
-                <!--Font weight of the Merriweather fonts (300)-->
-                <td>.u-ff-merriweather-300 </td>
+                <!--Font weight of the Merriweather fonts (700)-->
+                <td>.u-ff-lato-600 </td>
                 <td>For all the sub headings.</td>
-                <td class="u-ff-merriweather u-ff-merriweather-300"> For sub Headings</td>
+                <td class="u-ff-lato u-ff-lato-600"> For sub-headings</td>
             </tr>
             <tr>
                 <!--Font weight of the Roboto fonts (700)-->
-                <td>.u-ff-roboto-700 </td>
-                <td>For all the text area.</td>
-                <td class="u-ff-roboto u-ff-roboto-400"> For Text area</td>
+                <td>.u-ff-nunito-400 </td>
+                <td>For all the body text area.</td>
+                <td class="u-ff-nunito u-ff-nunito-400"> For Text area</td>
             </tr>
             <tr>
                 <!--Class just for the letter space-->
                 <td>.u-letterspace </td>
                 <td>For giving space between two letters.</td>
-                <td class="u-ff-merriweather u-ff-roboto-700 u-letterspace">MANASVI</td>
+                <td class="u-ff-pt u-ff-pt-700 u-letterspace">MANASVI</td>
             </tr>
         </tbody>
     </table><br>
 
-    <p class="u-ff-roboto">To understand the look of the font better, Here is the letters of each font style.</p><br>
+    <p class="u-ff-nunito">To understand the look of the font better, Here is the letters of each font style.</p><br>
 
     <!--Examples-->
 
-    <h2 class="u-ff-merriweather u-ff-merriweather-700">Merriweather - Bold</h2>
-    <h3 class="u-ff-merriweather u-ff-merriweather-700">Heading Fonts</h3>
-    <p class="u-ff-merriweather u-ff-merriweather-700 u-letterspace">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-    <p class="u-ff-merriweather u-ff-merriweather-700 u-letterspace">abcdefghijklmnopqrstuvwxyz</p>
-    <p class="u-ff-merriweather u-ff-merriweather-700 u-letterspace">0123456789</p><br>
+    <h2 class="u-ff-pt u-ff-pt-700">PT - Bold</h2>
+    <h3 class="u-ff-pt u-ff-pt-700">Heading Fonts</h3>
+    <p class="u-ff-pt u-ff-pt-700 u-letterspace">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+    <p class="u-ff-pt u-ff-pt-700 u-letterspace">abcdefghijklmnopqrstuvwxyz</p>
+    <p class="u-ff-pt u-ff-pt-700 u-letterspace">0123456789</p><br>
 
-    <h2 class="u-ff-merriweather u-ff-merriweather-300">Merriweather - Regular</h2>
-    <h3 class="u-ff-merriweather u-ff-merriweather-300">Sub Heading Fonts</h3>
-    <p class="u-ff-merriweather u-ff-merriweather-300 u-letterspace">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-    <p class="u-ff-merriweather u-ff-merriweather-300 u-letterspace">abcdefghijklmnopqrstuvwxyz</p>
-    <p class="u-ff-merriweather u-ff-merriweather-300 u-letterspace">0123456789</p><br>
+    <h2 class="u-ff-lato u-ff-lato-600">Lato , Sans - semibold</h2>
+    <h3 class="u-ff-lato u-ff-lato-600">Sub Heading Fonts</h3>
+    <p class="u-ff-lato u-ff-lato-600 u-letterspace">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+    <p class="u-ff-lato u-ff-lato-600 u-letterspace">abcdefghijklmnopqrstuvwxyz</p>
+    <p class="u-ff-lato u-ff-lato-600 u-letterspace">0123456789</p><br>
 
-    <h2 class="u-ff-roboto u-ff-roboto-400">Roboto - Regular</h2>
-    <h3 class="u-ff-roboto u-ff-roboto-400">Body Fonts</h3>
-    <p class="u-ff-roboto u-ff-roboto-400 u-letterspace">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-    <p class="u-ff-roboto u-ff-roboto-400 u-letterspace">abcdefghijklmnopqrstuvwxyz</p>
-    <p class="u-ff-roboto u-ff-roboto-400 u-letterspace">0123456789</p>
+    <h2 class="u-ff-nunito u-ff-nunito-400">Nunito - Regular</h2>
+    <h3 class="u-ff-nunito u-ff-nunito-400">Body Fonts</h3>
+    <p class="u-ff-nunito u-ff-nunito-400 u-letterspace">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+    <p class="u-ff-nunito u-ff-nunito-400 u-letterspace">abcdefghijklmnopqrstuvwxyz</p>
+    <p class="u-ff-nunito u-ff-nunito-400 u-letterspace">0123456789</p>
 </div>
     <script src="design-system.js"></script>
   </body>

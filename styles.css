@@ -12,14 +12,20 @@
     --clr-dgray: #464140;
 
     /*Typography variables*/
-   --ff-merri: "Merriweather", serif;
-   --ff-roboto:  "Roboto", sans-serif;
-   --fw-300:  "Merriweather", serif; font-weight: 300; font-style: normal;
-   --fw-400:  "Roboto", serif; font-weight: 400; font-style: normal;
-   --fw-700: "Merriweather", serif; font-weight: 700; font-style: normal;
+    --ff-pt: "PT", sans-serif;
+   --ff-lato: "Lato", serif;
+   --ff-nunito: "Nunito", sans-serif;
+   --fw-700: 700;
+   --fw-600: font-weight: 600; 
+   --fw-400: font-weight: 400;
+   --fs-regular: font-style: normal;
+   --fs-bold: font-style: bold;
+   --ft-ptsize: font-size: 24px;
+   --ft-latosize: font-size: 18px;
+   --ft-nnsize: font-size: 16px;
 
    /*Letter spacing*/
-   --fo-ls:  2px;
+   --fo-ls:  1px;
 }
 
 /* CSS reset*/
@@ -48,21 +54,49 @@ ul,
 ol {
     padding: 0;
 }
+/* color pallete (swatches) */
+/*For universal contents(header, footer)*/
+.u-universal-bg{
+    color: #FFFFFF;
+    background-color: var(--clr-universal);
+  }
+  .u-universal-text{
+    background-color: var(--clr-white);
+  }
+  /*For body background and text color*/
+  .u-bg{
+    background-color:var(--clr-background) ;
+  }
+  .u-text{
+    color: azure;
+    background-color: var(--clr-bodytext);
+  }
+  .u-hover{
+    color: #FFFFFF;
+    background-color: var(--clr-hover);
+  }
+  /*For CTA*/
+  .u-accent-cta{
+    color: azure;
+    background-color:var(--clr-accent) ;
+  }
+  .u-accent-hover{
+    color: #FFFFFF;
+    background-color: var(--clr-accent-hover);
+  } 
 
 /* Typography font family classes */
-/*Merriweather font family*/
-.u-ff-merriweather{font-family: var(--ff-merri)}
 
-/*Roboto font family*/
-.u-ff-roboto{font-family: var(--ff-roboto)}
+.u-ff-pt{font-family: var(--ff-pt)}
+.u-ff-lato{font-family: var(--ff-lato)}
+.u-ff-nunito{font-family: var(--ff-nunito)}
 
 /* Typography font weight and style classes */
 /*Merriweather, font weight 700 for headings*/
-.u-ff-merriweather-700{font-weight: var(--fw-700);}
-/*Merriweather, font weight 300 for sub headings*/
-.u-ff-merriweather-300{font-weight: var(--fw-300);}
-/*Roboto, font weight 300 for text content*/
-.u-ff-roboto-400{font-weight: var(--fw-400);}
+.u-ff-pt-700{font-weight: var(--fw-700);}
+.u-ff-lato-600{font-weight: var(--fw-600);}
+.u-ff-nunito-400{font-weight: var(--fw-400);}
+
 
 /*Letter space*/
 .u-letterspace{letter-spacing: var(--fo-ls)}
