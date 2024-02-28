@@ -86,23 +86,25 @@ ol {
   } 
 
 /* Typography font family classes */
-
+/*font Family*/
 .u-ff-pt{font-family: var(--ff-pt)}
 .u-ff-lato{font-family: var(--ff-lato)}
 .u-ff-nunito{font-family: var(--ff-nunito)}
 
 /* Typography font weight and style classes */
-/*Merriweather, font weight 700 for headings*/
+/*font weight for all of them*/
 .u-ff-pt-700{font-weight: var(--fw-700);}
 .u-ff-lato-600{font-weight: var(--fw-600);}
 .u-ff-nunito-400{font-weight: var(--fw-400);}
 
-
+/*font sizes for all of them*/
 .u-ft-ptsize{font-size: var(--ft-ptsize);}
 .u-ft-latosize{font-size: var(--ft-latosize);}
 .u-ft-nnsize{font-size: var(--ft-nnsize);}
 
+/*font style for all of them*/
 .u-ft-bold{font-style: var(--fs-bold);}
 .u-ft-regular{font-style: var(--fs-regular);}
+
 /*Letter space*/
 .u-letterspace{letter-spacing: var(--fo-ls)}

@@ -46,7 +46,7 @@
 }
 
 /* Styles for Side navbar */
-.sidenav {
+.side-nav {
   display: none;
   background-color: var(--clr-universal);
   padding-top: 40px;
@@ -166,7 +166,7 @@ tr:nth-child(even) {
   }
 
   /* Show side navbar on larger screens */
-  .sidenav {
+  .side-nav {
     display: block;
     height: 100%;
     width: 250px;
@@ -176,6 +176,9 @@ tr:nth-child(even) {
     z-index: 1;
     background-color: var(--clr-universal);
     padding-top: 0;
+    font-family: var(--ff-nunito);
+    font-size: var(--fs-nunito);
+    
   }
 
   /* Main body background color for larger screens */
