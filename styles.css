@@ -8,12 +8,8 @@
     --clr-active: #464140;
     --clr-accent: #022135;
     --clr-accent-hover: #533d2f;
-
     --clr-white:#FFFFFF; /*for background*/
     --clr-dgray: #464140;
-    
-    /*For neutral use optional*/
-    --clr-lgray: #e0e0e7;
 
     /*Typography variables*/
    --ff-merri: "Merriweather", serif;
@@ -52,11 +48,6 @@ ul,
 ol {
     padding: 0;
 }
-
-
-
-
-
 
 /* Typography font family classes */
 /*Merriweather font family*/
