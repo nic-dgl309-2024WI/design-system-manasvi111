@@ -34,6 +34,11 @@
   background-color: var(--clr-dgray);
 }
 
+.mainNav__link.active {
+  font-weight: bold; /* Example style for the active link */
+  color: var(--clr-dgray); /* Example color for the active link */
+}
+
 /* Styles for Side navbar */
 .sidenav {
   display: none;
@@ -125,6 +130,10 @@ tr:hover {
     }
   .mainNav__links {
     display: block; /* Show top nav links on larger screens */
+  }
+  .mainNav__link.active {
+    font-weight: bold; /* Example style for the active link */
+    color: var(--clr-dgray); /* Example color for the active link */
   }
   .sidenav__links {
       display: none;
