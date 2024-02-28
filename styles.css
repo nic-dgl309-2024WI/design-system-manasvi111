@@ -1,11 +1,13 @@
 :root{
     /*Color variales*/
+    --clr-background: #f7f4f1;
     --clr-white:#FFFFFF; 
     --clr-white-text: #FFFFFF;
     --clr-dgray: #464140;
     --clr-accent: #49033A; 
-    --clr-universal: #a28bad; 
-    
+    --clr-universal: #b6937b; 
+    --clr-hover: #464140;
+    --clr-btn: 
     /*For neutral use optional*/
     --clr-lgray: #e0e0e7;
 

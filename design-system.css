@@ -89,6 +89,9 @@
 .sidenav__links:hover {
   color: var(--clr-dgray);
 }
+.main__body{
+  background-color: var(--clr-background);
+}
 
 /* Styles for the hamburger icon */
 .hamburger {
@@ -152,6 +155,9 @@ tr:hover {
     z-index: 1;
     background-color: var(--clr-universal);
     padding-top: 0; /* Remove padding-top */
+  }
+  .main__body{
+    background-color: var(--clr-background);
   }
 
   table {
