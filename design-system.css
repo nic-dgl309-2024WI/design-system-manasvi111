@@ -122,7 +122,36 @@ tr:hover {
 .container{
   padding-top: 10%;
 }
-
+/* color pallete (swatches) */
+/*For universal contents(header, footer)*/
+.u-universal-bg{
+  color: #FFFFFF;
+  background-color: var(--clr-universal);
+}
+.u-universal-text{
+  background-color: var(--clr-white);
+}
+/*For body background and text color*/
+.u-bg{
+  background-color:var(--clr-background) ;
+}
+.u-text{
+  color: azure;
+  background-color: var(--clr-bodytext);
+}
+.u-hover{
+  color: #FFFFFF;
+  background-color: var(--clr-hover);
+}
+/*For CTA*/
+.u-accent-cta{
+  color: azure;
+  background-color:var(--clr-accent) ;
+}
+.u-accent-hover{
+  color: #FFFFFF;
+  background-color: var(--clr-accent-hover);
+} 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Top navbar */

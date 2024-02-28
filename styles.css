@@ -1,13 +1,17 @@
 :root{
     /*Color variales*/
-    --clr-background: #f7f4f1;
-    --clr-white:#FFFFFF; 
-    --clr-white-text: #FFFFFF;
-    --clr-dgray: #464140;
-    --clr-accent: #49033A; 
-    --clr-universal: #b6937b; 
+    --clr-background: #f7f4f1; /*Lightest color of the brown*/
+    --clr-bodytext: rgb(0, 0, 0); /*For body text*/
+    --clr-universal: #b6937b;
+    --clr-white-text: #FFFFFF; /*For universal text*/
     --clr-hover: #464140;
-    --clr-btn: 
+    --clr-active: #464140;
+    --clr-accent: #022135;
+    --clr-accent-hover: #533d2f;
+
+    --clr-white:#FFFFFF; /*for background*/
+    --clr-dgray: #464140;
+    
     /*For neutral use optional*/
     --clr-lgray: #e0e0e7;
 
@@ -50,28 +54,9 @@ ol {
 }
 
 
-/* color pallete (swatches) */
-/*For body background and text color*/
-.u-bg{
-    background-color:var(--clr-white) ;
-}
-.u-text{
-    color: azure;
-    background-color: var(--clr-dgray);
-}
-/*For CTA*/
-.u-accent-cta{
-    color: azure;
-    background-color:var(--clr-accent) ;
-}
-/*For universal contents(header, footer)*/
-.u-universal-bg{
-    color: #FFFFFF;
-    background-color: var(--clr-universal);
-}
-.u-universal-text{
-    background-color: var(--clr-white);
-}
+
+
+
 
 /* Typography font family classes */
 /*Merriweather font family*/
