@@ -12,28 +12,34 @@
   z-index: 1000; /* Ensure the navbar is above other content */
 }
 
+/* Logo link styling */
 .mainNav__link--logo {
   color: var(--clr-white-text);
   font-weight: lighter;
-  font-family: var(--ff-merri);
+  font-family: var(--ff-pt); /* Change font family */
   font-weight: var(--fw-700);
+  font-size: 20px; /* Adjust font size */
 }
 
+/* Styling for regular nav links */
 .mainNav__link {
   color: var(--clr-white);
   text-decoration: none;
   padding: 14px 16px;
 }
 
+/* Hide other nav links by default */
 .mainNav__links {
   display: none;
 }
 
+/* Hover effect for nav links */
 .mainNav__link:hover {
   color: var(--clr-white);
   background-color: var(--clr-dgray);
 }
 
+/* Active link styling */
 .mainNav__link.active {
   font-weight: bold; /* Example style for the active link */
   color: var(--clr-dgray); /* Example color for the active link */
@@ -47,49 +53,58 @@
   z-index: 5; /* Add this line to increase the z-index */
 }
 
+/* Styling for paragraph elements inside side navbar */
 .sidenav p {
   color: var(--clr-white);
 }
 
+/* Styling for the list inside side navbar */
 .sidenav__list {
   list-style-type: none;
 }
 
+/* Styling for side nav links */
 .sidenav__link {
   color: var(--clr-white);
   text-decoration: none;
-  font-family: var(--ff-merri);
+  font-family: var(--ff-nunito);
   display: block;
   margin-bottom: 5px;
 }
+
+/* Active side nav link styling */
 .sidenav__link.active {
   font-weight: bold; /* Example style for the active link */
-  color: var(--clr-dgray) /* Example color for the active link */
+  color: var(--clr-dgray); /* Example color for the active link */
 }
 
+/* Additional styles for side nav links */
 .sidenav__links {
   text-decoration: none;
   display: block;
-  font-family: var(--ff-merri);
+  font-family: var(--ff-nunito);
   color: var(--clr-white);
 }
-.sidenav__link-heading{
-  font-family: var(--ff-merri);
+
+/* Heading style for side nav */
+.sidenav__link-heading {
+  font-family: var(--ff-nunito);
   color: var(--clr-white);
   letter-spacing: 1px;
 }
-.sidenav__links.active {
-  font-weight: bold; /* Example style for the active link */
-  color: var(--clr-dgray) /* Example color for the active link */
-}
 
+/* Hover effect for side nav links */
 .sidenav__link:hover {
   color: var(--clr-dgray);
 }
+
+/* Hover effect for additional side nav links */
 .sidenav__links:hover {
   color: var(--clr-dgray);
 }
-.main__body{
+
+/* Main body background color */
+.main__body {
   background-color: var(--clr-background);
 }
 
@@ -99,6 +114,8 @@
   cursor: pointer;
   color: var(--clr-white);
 }
+
+/* Table styling */
 th, td {
   border: 1px solid var(--clr-universal);
   padding: 8px;
@@ -106,45 +123,51 @@ th, td {
   font-size: 20px;
 }
 
+/* Header row styling */
 th {
   background-color: var(--clr-universal);
   color: var(--clr-white-text);
   font-size: 20px;
 }
 
+/* Alternate row background color */
 tr:nth-child(even) {
   background-color: var(--clr-white);
 }
 
-
-.container{
+/* Container padding for main content */
+.container {
   padding-top: 10%;
 }
 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
-  /* Top navbar */
-  
-  /* Hamburger icon */
+  /* Hide hamburger icon on larger screens */
   .hamburger {
-      display: none; /* Hide hamburger icon on larger screens */
-    }
+    display: none;
+  }
+  
+  /* Show top nav links on larger screens */
   .mainNav__links {
-    display: block; /* Show top nav links on larger screens */
+    display: block;
+    font-family: var(--ff-pt);
+    font-weight: var(--fw-700);
   }
+
+  /* Active link styling for larger screens */
   .mainNav__link.active {
-    font-weight: bold; /* Example style for the active link */
-    color: var(--clr-dgray); /* Example color for the active link */
+    font-weight: bold;
+    color: var(--clr-dgray);
   }
+
+  /* Hide additional side nav links on larger screens */
   .sidenav__links {
-      display: none;
-    }
-  .sidenav__link {
-      display: block;
-    }
-  /* Side navbar */
+    display: none;
+  }
+
+  /* Show side navbar on larger screens */
   .sidenav {
-    display: block; /* Show side navbar on larger screens */
+    display: block;
     height: 100%;
     width: 250px;
     position: fixed;
@@ -152,34 +175,36 @@ tr:nth-child(even) {
     left: 0;
     z-index: 1;
     background-color: var(--clr-universal);
-    padding-top: 0; /* Remove padding-top */
+    padding-top: 0;
   }
-  .main__body{
+
+  /* Main body background color for larger screens */
+  .main__body {
     background-color: var(--clr-background);
   }
 
+  /* Table styling for larger screens */
   table {
-      width: 100%;
-      border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
   }
   
   th, td {
-      border: 1px solid var(--clr-universal);
-      padding: 8px;
-      text-align: left;
+    border: 1px solid var(--clr-universal);
+    padding: 8px;
+    text-align: left;
   }
   
   th {
-      background-color: var(--clr-universal);
+    background-color: var(--clr-universal);
   }
   
   tr:nth-child(even) {
-      background-color: var(--clr-white);
+    background-color: var(--clr-white);
   }
-  
 
-  
-  .container{
+  /* Container margin for larger screens */
+  .container {
     margin-left: 250px;
     padding: 50px;
   }
