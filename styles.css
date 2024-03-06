@@ -132,3 +132,29 @@ ol {
 .l-pl-1 {padding-left: 1rem; /* 16px */}
 .l-px-1 {padding-left: 1rem; /* 16px */padding-right: 1rem; /* 16px */}
 .l-py-1 {padding-top: 1rem; /* 16px */padding-bottom: 1rem; /* 16px */}
+
+/*Flex classes*/
+/* Flex layout classes */
+.l-flex {display: flex;}
+.l-flex-row {flex-direction: row;}
+.l-flex-column {flex-direction: column;}
+.l-flex-wrap {flex-wrap: wrap;}
+.l-flex-center {justify-content: center;align-items: center;}
+.l-flex-between {justify-content: space-between;}
+.l-flex-around {justify-content: space-around;}
+.l-flex-start {justify-content: flex-start;}
+.l-flex-end {justify-content: flex-end;}
+
+/* Grid layout classes */
+.l-grid {display: grid;}
+.l-grid-cols-2 {grid-template-columns: repeat(2, 1fr);}
+.l-grid-cols-3 {grid-template-columns: repeat(3, 1fr);}
+.l-grid-cols-4 {grid-template-columns: repeat(4, 1fr);}
+.l-grid-gap {gap: 1rem; /* Adjust as needed */}
+.l-grid-center {justify-items: center;align-items: center;}
+.l-grid-middle {justify-items: center;align-items: center;}
+.l-grid-auto {grid-auto-rows: minmax(auto, max-content);}
+
+
+
+
