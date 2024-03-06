@@ -136,9 +136,7 @@ tr:nth-child(even) {
 }
 
 /* Container padding for main content */
-.container {
-  padding-top: 10%;
-}
+
 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
@@ -210,8 +208,5 @@ tr:nth-child(even) {
   }
 
   /* Container margin for larger screens */
-  .container {
-    margin-left: 250px;
-    padding: 50px;
-  }
+
 }

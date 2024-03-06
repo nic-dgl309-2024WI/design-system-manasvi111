@@ -155,6 +155,15 @@ ol {
 .l-grid-middle {justify-items: center;align-items: center;}
 .l-grid-auto {grid-auto-rows: minmax(auto, max-content);}
 
+/*Container classes*/
+.container-mobile {
+  padding-top: 10%;
+}
 
-
-
+/* Media query for screens larger than 700px */
+@media screen and (min-width: 700px) {
+.container {
+  margin-left: 250px;
+  padding: 50px;
+}
+}
