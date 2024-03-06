@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- WIDTH ALGORITHM 100% -->
+    <!-- <style>
+      h1 {
+        /* width: 100%; */
+        margin: 0 16px;
+        background-color: chartreuse;
+      }
+    </style>
+
+    <h1>Hello World</h1> -->
+
+    <!-- WIDTH ALGORITHM min-content -->
+    <!-- <style>
+      h1 {
+        width: min-content;
+        background-color: fuchsia;
+      }
+    </style>
+
+    <h1>This heading is shrunk down.</h1> -->
+
+    <!-- WIDTH ALGORITHM max-content -->
+    <!-- <style>
+      h1 {
+        width: max-content;
+        background-color: mediumspringgreen;
+      }
+    </style>
+
+    <h1>
+      This heading is constrained using max-content, which causes the line to
+      extend far longer than it otherwise would!
+    </h1> -->
+
+    <!-- <style>
+      h1 {
+        width: max-content;
+        background-color: mediumspringgreen;
+        padding: 0 1rem;
+      }
+    </style>
+
+    <h1>A short heading</h1> -->
+
+    <!-- WIDTH ALGORITHM fit-content -->
+    <!-- <style>
+      h2 {
+        width: fit-content;
+        background-color: peachpuff;
+        margin-bottom: 16px;
+        padding: 8px;
+      }
+    </style>
+
+    <h2>Short</h2>
+    <h2>A mid-length heading</h2>
+    <h2>
+      The longest heading you've ever seen in your life, will it ever end,
+      ahhhhh ohmigod 😬😬😬😬😬😬😬
+    </h2> -->
+
+    <!-- WIDTH ALGORITHM min and max content -->
+    <!-- <style>
+      .box {
+        width: 80%;
+        min-width: 100px;
+        max-width: 1000px;
+        margin: 0 auto;
+        border: solid hotpink;
+        text-align: center;
+      }
+    </style>
+
+    <div class="box">Hello World</div> -->
+
+    <!-- THOUGHT EXPERIMENT -->
+    <!-- <style>
+      .max-width-wrapper {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    </style>
+
+    <div class="max-width-wrapper">
+      <div class="card">
+        <p>
+          Otters have long, slim bodies and relatively short limbs. Their most
+          striking anatomical features are the powerful webbed feet used to
+          swim, and their seal-like abilities holding breath underwater.
+        </p>
+      </div>
+    </div> -->
+
+    <!-- FIXED HEIGHT -->
+    <!-- <style>
+      section {
+        height: 100px;
+        max-width: 300px;
+        border: solid;
+      }
+    </style>
+
+    <section>
+      <p>
+        Constraining height is generally a bad idea, because we usually don't
+        know how much space the element's content will take up! This paragraph
+        is breaking out of its box, because we've constrained its height to just
+        100 pixels.
+      </p>
+    </section> -->
+
+    <!-- FULL HEIGHT WRAPPER -->
+    <!-- <style>
+      .wrapper {
+        min-height: 100%;
+        border: solid;
+      }
+    </style>
+
+    <section class="wrapper">
+      <p>I'm not very tall!</p>
+    </section> -->
+
+    <!-- <style>
+      html,
+      body {
+        height: 100%;
+      }
+      .wrapper {
+        min-height: 100%;
+        border: solid;
+      }
+    </style>
+
+    <div class="wrapper">
+      <p>I fill the viewport now!</p>
+    </div> -->
+
+    <!-- FOOTER ALWAYS ON THE BOTTOM -->
+    <!-- <style>
+      html,
+      body {
+        height: 100%;
+      }
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+      }
+      footer {
+        border: solid hotpink;
+        padding: 8px;
+        margin-top: auto;
+      }
+    </style>
+
+    <div class="wrapper">
+      <p>I fill the viewport!</p>
+      <footer>I'm at the bottom</footer>
+    </div> -->
+
+    <!-- CENTERING TRICK -->
+    <!-- <style>
+      .box {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        background: deeppink;
+      }
+
+      /* .box { 
+         inset: 0;
+      }*/
+    </style> -->
+
+    <!-- <style>
+      .box {
+        position: absolute;
+        inset: 150px;
+        background: deeppink;
+      }
+    </style>  -->
+
+    <!-- <div class="box"></div> -->
+
+    <!-- CONTAINING BLOCKS -->
+    <!-- <style>
+      .container {
+        width: 200px;
+        border: 5px solid;
+        padding: 16px;
+      }
+    </style>
+
+    <section class="container">
+      <p>Hello World!</p>
+    </section> -->
+
+    <!-- FLEX WRAPPER -->
+    <!-- <style>
+      main {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      article {
+        flex: 1 1 150px;
+        max-width: 250px;
+      }
+      article img {
+        width: 100%;
+      }
+    </style>
+
+    <main>
+      <article>
+        <img src="https://courses.joshwcomeau.com/cfj-mats/dog-one-300px.jpg" />
+        <section>
+          <h2>The One Weird Trick to get tasty dinner scraps</h2>
+          <p>
+            Step one: Find the friendliest human at the dinner table. Step two:
+            Give them sad pupper eyes. Step 3: Get slid human food on the sly.
+          </p>
+        </section>
+      </article>
+      <article>
+        <img src="https://courses.joshwcomeau.com/cfj-mats/dog-two-300px.jpg" />
+        <section>
+          <h2>How to show them you mean business</h2>
+          <p>
+            Every dog park has their own scene. Different cliques. If you want
+            to make a name for yourself, you'll need to make a good first
+            impression…
+          </p>
+        </section>
+      </article>
+      <article>
+        <img
+          src="https://courses.joshwcomeau.com/cfj-mats/dog-three-300px.jpg"
+        />
+        <section>
+          <h2>Life in the outdoors</h2>
+          <p>
+            We purchased and tested the 10 best outdoors accessories so you
+            don't have to. Here's what we found…
+          </p>
+        </section>
+      </article>
+    </main> -->
+
+    <!-- GRID WRAPPER -->
+    <!-- <style>
+      .wrapper {
+        display: grid;
+        justify-content: center;
+      }
+      .box {
+        width: 500px;
+        border: solid hotpink;
+      }
+    </style>
+
+    <div class="wrapper">
+      <div class="box">
+      <header>Hello World</header>
+      <section>Stuff here</section>
+      <footer>Copyright notice</footer>
+    </div>
+    </div> -->
+
+    <!-- STICKY GRIDS -->
+    <!-- <style>
+      .grid {
+        --header-height: 5rem;
+        display: grid;
+        grid-template-areas:
+          "header header"
+          "sidebar main"
+          "footer footer";
+        grid-template-columns: 14rem 1fr;
+        gap: 16px;
+        max-width: 1200px;
+        margin: 0 auto;
+        isolation: isolate;
+      }
+
+      header {
+        grid-area: header;
+        position: sticky;
+        z-index: 2;
+        top: 0;
+        display: grid;
+        place-content: center;
+        height: var(--header-height);
+        border-bottom: 3px solid;
+        background-color: white;
+      }
+
+      aside {
+        grid-area: sidebar;
+        position: relative;
+        z-index: 1;
+      }
+
+      .sticky-sidebar {
+        position: sticky;
+        top: 9rem;
+      }
+
+      main {
+        grid-area: main;
+        min-height: 180vh;
+        border: 3px solid;
+      }
+
+      footer {
+        grid-area: footer;
+        display: grid;
+        place-content: center;
+        height: 5rem;
+        border-top: 3px solid;
+        background-color: white;
+        position: relative;
+        z-index: 2;
+      }
+
+      .grid > * {
+        padding: 8px;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        column-count: 2;
+        column-gap: 2em;
+      }
+    </style>
+
+    <div class="grid">
+      <header>
+        <h1>My Website</h1>
+      </header>
+      <aside>
+        <div class="sticky-sidebar">
+          <h2>Chicken Cacciatore</h2>
+          <nav>
+            <ol>
+              <li>Introduction</li>
+              <li>Prep</li>
+              <li>Cooking</li>
+              <li>Reviews</li>
+              <li>Introduction</li>
+              <li>Prep</li>
+              <li>Cooking</li>
+              <li>Reviews</li>
+              <li>Introduction</li>
+              <li>Prep</li>
+              <li>Cooking</li>
+              <li>Reviews</li>
+              <li>Introduction</li>
+              <li>Prep</li>
+              <li>Cooking</li>
+              <li>Reviews</li>
+              <li>Introduction</li>
+              <li>Prep</li>
+              <li>Cooking</li>
+              <li>Reviews</li>
+              <li>Introduction</li>
+              <li>Prep</li>
+              <li>Cooking</li>
+              <li>Reviews</li>
+              <li>Introduction</li>
+              <li>Prep</li>
+              <li>Cooking</li>
+              <li>Reviews</li>
+              <li>Introduction</li>
+              <li>Prep</li>
+              <li>Cooking</li>
+              <li>Reviews</li>
+            </ol>
+          </nav>
+        </div>
+      </aside>
+      <main>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quae
+          voluptas quidem consectetur, maiores totam aliquid recusandae,
+          expedita possimus inventore vel obcaecati cupiditate. Doloremque minus
+          earum laborum hic maxime qui molestias corrupti adipisci ullam
+          distinctio, facere, neque incidunt eius consectetur ut saepe cumque
+          fugiat nesciunt voluptates eum nam. Optio rerum, eius quod nostrum ea
+          voluptas possimus modi deleniti inventore, quaerat ab esse
+          voluptatibus. Fugiat rem laudantium pariatur aut cumque iste
+          cupiditate? Vel cum reprehenderit a dolorum, repudiandae neque aut
+          dicta doloribus expedita dolores, sint ipsa, aspernatur explicabo
+          illum asperiores deleniti praesentium eius et ducimus? Laudantium
+          neque, consequuntur magni blanditiis aliquam autem voluptates
+          inventore, earum sequi eius assumenda repellendus, vel dolorum maxime
+          cumque natus tempora! Voluptas, eligendi, quo ipsam vitae voluptates
+          cupiditate nemo natus ea odio quae eum odit distinctio labore
+          necessitatibus suscipit amet est ipsum non sit. Velit autem temporibus
+          iure voluptate maxime tempora eaque doloribus iusto maiores laudantium
+          fuga totam, sit ut et molestiae commodi eveniet similique? Numquam
+          quibusdam debitis aliquid sint culpa suscipit laborum possimus qui
+          fugit, saepe cupiditate eum rerum consectetur quas laboriosam nobis
+          voluptatibus.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quae
+          voluptas quidem consectetur, maiores totam aliquid recusandae,
+          expedita possimus inventore vel obcaecati cupiditate. Doloremque minus
+          earum laborum hic maxime qui molestias corrupti adipisci ullam
+          distinctio, facere, neque incidunt eius consectetur ut saepe cumque
+          fugiat nesciunt voluptates eum nam. Optio rerum, eius quod nostrum ea
+          voluptas possimus modi deleniti inventore, quaerat ab esse
+          voluptatibus. Fugiat rem laudantium pariatur aut cumque iste
+          cupiditate? Vel cum reprehenderit a dolorum, repudiandae neque aut
+          dicta doloribus expedita dolores, sint ipsa, aspernatur explicabo
+          illum asperiores deleniti praesentium eius et ducimus? Laudantium
+          neque, consequuntur magni blanditiis aliquam autem voluptates
+          inventore, earum sequi eius assumenda repellendus, vel dolorum maxime
+          cumque natus tempora! Voluptas, eligendi, quo ipsam vitae voluptates
+          cupiditate nemo natus ea odio quae eum odit distinctio labore
+          necessitatibus suscipit amet est ipsum non sit. Velit autem temporibus
+          iure voluptate maxime tempora eaque doloribus iusto maiores laudantium
+          fuga totam, sit ut et molestiae commodi eveniet similique? Numquam
+          quibusdam debitis aliquid sint culpa suscipit laborum possimus qui
+          fugit, saepe cupiditate eum rerum consectetur quas laboriosam nobis
+          voluptatibus.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quae
+          voluptas quidem consectetur, maiores totam aliquid recusandae,
+          expedita possimus inventore vel obcaecati cupiditate. Doloremque minus
+          earum laborum hic maxime qui molestias corrupti adipisci ullam
+          distinctio, facere, neque incidunt eius consectetur ut saepe cumque
+          fugiat nesciunt voluptates eum nam. Optio rerum, eius quod nostrum ea
+          voluptas possimus modi deleniti inventore, quaerat ab esse
+          voluptatibus. Fugiat rem laudantium pariatur aut cumque iste
+          cupiditate? Vel cum reprehenderit a dolorum, repudiandae neque aut
+          dicta doloribus expedita dolores, sint ipsa, aspernatur explicabo
+          illum asperiores deleniti praesentium eius et ducimus? Laudantium
+          neque, consequuntur magni blanditiis aliquam autem voluptates
+          inventore, earum sequi eius assumenda repellendus, vel dolorum maxime
+          cumque natus tempora! Voluptas, eligendi, quo ipsam vitae voluptates
+          cupiditate nemo natus ea odio quae eum odit distinctio labore
+          necessitatibus suscipit amet est ipsum non sit. Velit autem temporibus
+          iure voluptate maxime tempora eaque doloribus iusto maiores laudantium
+          fuga totam, sit ut et molestiae commodi eveniet similique? Numquam
+          quibusdam debitis aliquid sint culpa suscipit laborum possimus qui
+          fugit, saepe cupiditate eum rerum consectetur quas laboriosam nobis
+          voluptatibus.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quae
+          voluptas quidem consectetur, maiores totam aliquid recusandae,
+          expedita possimus inventore vel obcaecati cupiditate. Doloremque minus
+          earum laborum hic maxime qui molestias corrupti adipisci ullam
+          distinctio, facere, neque incidunt eius consectetur ut saepe cumque
+          fugiat nesciunt voluptates eum nam. Optio rerum, eius quod nostrum ea
+          voluptas possimus modi deleniti inventore, quaerat ab esse
+          voluptatibus. Fugiat rem laudantium pariatur aut cumque iste
+          cupiditate? Vel cum reprehenderit a dolorum, repudiandae neque aut
+          dicta doloribus expedita dolores, sint ipsa, aspernatur explicabo
+          illum asperiores deleniti praesentium eius et ducimus? Laudantium
+          neque, consequuntur magni blanditiis aliquam autem voluptates
+          inventore, earum sequi eius assumenda repellendus, vel dolorum maxime
+          cumque natus tempora! Voluptas, eligendi, quo ipsam vitae voluptates
+          cupiditate nemo natus ea odio quae eum odit distinctio labore
+          necessitatibus suscipit amet est ipsum non sit. Velit autem temporibus
+          iure voluptate maxime tempora eaque doloribus iusto maiores laudantium
+          fuga totam, sit ut et molestiae commodi eveniet similique? Numquam
+          quibusdam debitis aliquid sint culpa suscipit laborum possimus qui
+          fugit, saepe cupiditate eum rerum consectetur quas laboriosam nobis
+          voluptatibus.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quae
+          voluptas quidem consectetur, maiores totam aliquid recusandae,
+          expedita possimus inventore vel obcaecati cupiditate. Doloremque minus
+          earum laborum hic maxime qui molestias corrupti adipisci ullam
+          distinctio, facere, neque incidunt eius consectetur ut saepe cumque
+          fugiat nesciunt voluptates eum nam. Optio rerum, eius quod nostrum ea
+          voluptas possimus modi deleniti inventore, quaerat ab esse
+          voluptatibus. Fugiat rem laudantium pariatur aut cumque iste
+          cupiditate? Vel cum reprehenderit a dolorum, repudiandae neque aut
+          dicta doloribus expedita dolores, sint ipsa, aspernatur explicabo
+          illum asperiores deleniti praesentium eius et ducimus? Laudantium
+          neque, consequuntur magni blanditiis aliquam autem voluptates
+          inventore, earum sequi eius assumenda repellendus, vel dolorum maxime
+          cumque natus tempora! Voluptas, eligendi, quo ipsam vitae voluptates
+          cupiditate nemo natus ea odio quae eum odit distinctio labore
+          necessitatibus suscipit amet est ipsum non sit. Velit autem temporibus
+          iure voluptate maxime tempora eaque doloribus iusto maiores laudantium
+          fuga totam, sit ut et molestiae commodi eveniet similique? Numquam
+          quibusdam debitis aliquid sint culpa suscipit laborum possimus qui
+          fugit, saepe cupiditate eum rerum consectetur quas laboriosam nobis
+          voluptatibus.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quae
+          voluptas quidem consectetur, maiores totam aliquid recusandae,
+          expedita possimus inventore vel obcaecati cupiditate. Doloremque minus
+          earum laborum hic maxime qui molestias corrupti adipisci ullam
+          distinctio, facere, neque incidunt eius consectetur ut saepe cumque
+          fugiat nesciunt voluptates eum nam. Optio rerum, eius quod nostrum ea
+          voluptas possimus modi deleniti inventore, quaerat ab esse
+          voluptatibus. Fugiat rem laudantium pariatur aut cumque iste
+          cupiditate? Vel cum reprehenderit a dolorum, repudiandae neque aut
+          dicta doloribus expedita dolores, sint ipsa, aspernatur explicabo
+          illum asperiores deleniti praesentium eius et ducimus? Laudantium
+          neque, consequuntur magni blanditiis aliquam autem voluptates
+          inventore, earum sequi eius assumenda repellendus, vel dolorum maxime
+          cumque natus tempora! Voluptas, eligendi, quo ipsam vitae voluptates
+          cupiditate nemo natus ea odio quae eum odit distinctio labore
+          necessitatibus suscipit amet est ipsum non sit. Velit autem temporibus
+          iure voluptate maxime tempora eaque doloribus iusto maiores laudantium
+          fuga totam, sit ut et molestiae commodi eveniet similique? Numquam
+          quibusdam debitis aliquid sint culpa suscipit laborum possimus qui
+          fugit, saepe cupiditate eum rerum consectetur quas laboriosam nobis
+          voluptatibus.
+        </p>
+      </main>
+      <footer>Copyright notice</footer>
+    </div> -->
+
+    <!-- MAX WIDTH WRAPPER -->
+    <!-- <style>
+      img {
+        max-width: 100%;
+      }
+      h1 {
+        margin: 32px 0;
+      }
+      p {
+        margin: 16px 0;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      .max-width-wrapper {
+        max-width: 30ch;
+        padding: 32px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+
+    <div class="max-width-wrapper">
+      <h1>Some Heading</h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged.
+      </p>
+      <img
+        alt="a satisfied-looking cute meerkat"
+        src="https://courses.joshwcomeau.com/cfj-mats/meerkat.jpg"
+        class="meerkat"
+      />
+      <p>
+        It was popularised in the 1960s with the release of Letraset sheets
+        containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.
+      </p>
+    </div> -->
+  </body>
+</html>

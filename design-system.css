@@ -51,6 +51,7 @@
   background-color: var(--clr-universal);
   padding-top: 40px;
   z-index: 5; /* Add this line to increase the z-index */
+  
 }
 
 /* Styling for paragraph elements inside side navbar */
@@ -106,6 +107,7 @@
 /* Main body background color */
 .main__body {
   background-color: var(--clr-background);
+  overflow-y: auto;
 }
 
 /* Styles for the hamburger icon */
@@ -180,11 +182,13 @@ tr:nth-child(even) {
     font-family: var(--ff-nunito);
     font-size: var(--fs-nunito);
     
+    
   }
 
   /* Main body background color for larger screens */
   .main__body {
     background-color: var(--clr-background);
+    overflow-y: auto;
   }
 
   /* Table styling for larger screens */

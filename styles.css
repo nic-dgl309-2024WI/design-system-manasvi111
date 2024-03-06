@@ -162,8 +162,6 @@ ol {
 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
-.container {
-  margin-left: 250px;
-  padding: 50px;
-}
+.container {margin-left: 250px;padding: 50px;}
+.container-full {width: 100%;max-width: 100%;}
 }
