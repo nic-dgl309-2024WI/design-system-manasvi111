@@ -480,6 +480,97 @@ ol {
 /*5*/
 .l-pb-5 {margin-left: 5rem;} /* 80px */
 
+/*----------- Horizontal padding classes ---------*/
+
+.l-px-0-25 {padding-left: 0.25rem; /* 4px */padding-right: 0.25rem; /* 4px */}
+.l-px-0-5 {padding-left: 0.5rem; /* 8px */padding-right: 0.5rem; /* 8px */}
+.l-px-0-75 {padding-left: 0.75rem; /* 12px */padding-right: 0.75rem; /* 12px */}
+.l-px-1 {padding-left: 1rem; /* 16px */padding-right: 1rem; /* 16px */}
+.l-px-1-25 {padding-left: 1.25rem; /* 20px */padding-right: 1.25rem; /* 20px */}
+.l-px-1-5 {padding-left: 1.5rem; /* 24px */padding-right: 1.5rem; /* 24px */}
+.l-px-1-75 {padding-left: 1.75rem; /* 28px */padding-right: 1.75rem; /* 28px */}
+.l-px-2 {padding-left: 2rem; /* 32px */padding-right: 2rem; /* 32px */}
+.l-px-2-25 {padding-left: 2.25rem; /* 36px */padding-right: 2.25rem; /* 36px */}
+.l-px-2-5 {padding-left: 2.5rem; /* 40px */padding-right: 2.5rem; /* 40px */}
+.l-px-2-75 {padding-left: 2.75rem; /* 44px */padding-right: 2.75rem; /* 44px */}
+.l-px-3 {padding-left: 3rem; /* 48px */padding-right: 3rem; /* 48px */}
+.l-px-3-25 {padding-left: 3.25rem; /* 52px */padding-right: 3.25rem; /* 52px */}
+.l-px-3-5 {padding-left: 3.5rem; /* 56px */padding-right: 3.5rem; /* 56px */}
+.l-px-3-75 {padding-left: 3.75rem; /* 60px */padding-right: 3.75rem; /* 60px */}
+.l-px-4 {padding-left: 4rem; /* 64px */padding-right: 4rem; /* 64px */}
+.l-px-4-25 {padding-left: 4.25rem; /* 68px */padding-right: 4.25rem; /* 68px */}
+.l-px-4-5 {padding-left: 4.5rem; /* 72px */padding-right: 4.5rem; /* 72px */}
+.l-px-4-75 {padding-left: 4.75rem; /* 76px */padding-right: 4.75rem; /* 76px */}
+.l-px-5 {padding-left: 5rem; /* 80px */padding-right: 5rem; /* 80px */}
+
+/*----------- Horizontal Margin classes ---------*/
+
+.l-mx-0-25 {padding-left: 0.25rem; /* 4px */padding-right: 0.25rem; /* 4px */}
+.l-mx-0-5 {padding-left: 0.5rem; /* 8px */padding-right: 0.5rem; /* 8px */}
+.l-mx-0-75 {padding-left: 0.75rem; /* 12px */padding-right: 0.75rem; /* 12px */}
+.l-mx-1 {padding-left: 1rem; /* 16px */padding-right: 1rem; /* 16px */}
+.l-mx-1-25 {padding-left: 1.25rem; /* 20px */padding-right: 1.25rem; /* 20px */}
+.l-mx-1-5 {padding-left: 1.5rem; /* 24px */padding-right: 1.5rem; /* 24px */}
+.l-mx-1-75 {padding-left: 1.75rem; /* 28px */padding-right: 1.75rem; /* 28px */}
+.l-mx-2 {padding-left: 2rem; /* 32px */padding-right: 2rem; /* 32px */}
+.l-mx-2-25 {padding-left: 2.25rem; /* 36px */padding-right: 2.25rem; /* 36px */}
+.l-mx-2-5 {padding-left: 2.5rem; /* 40px */padding-right: 2.5rem; /* 40px */}
+.l-mx-2-75 {padding-left: 2.75rem; /* 44px */padding-right: 2.75rem; /* 44px */}
+.l-mx-3 {padding-left: 3rem; /* 48px */padding-right: 3rem; /* 48px */}
+.l-mx-3-25 {padding-left: 3.25rem; /* 52px */padding-right: 3.25rem; /* 52px */}
+.l-mx-3-5 {padding-left: 3.5rem; /* 56px */padding-right: 3.5rem; /* 56px */}
+.l-mx-3-75 {padding-left: 3.75rem; /* 60px */padding-right: 3.75rem; /* 60px */}
+.l-mx-4 {padding-left: 4rem; /* 64px */padding-right: 4rem; /* 64px */}
+.l-mx-4-25 {padding-left: 4.25rem; /* 68px */padding-right: 4.25rem; /* 68px */}
+.l-mx-4-5 {padding-left: 4.5rem; /* 72px */padding-right: 4.5rem; /* 72px */}
+.l-mx-4-75 {padding-left: 4.75rem; /* 76px */padding-right: 4.75rem; /* 76px */}
+.l-mx-5 {padding-left: 5rem; /* 80px */padding-right: 5rem; /* 80px */}
+
+/*----------- Vertical padding classes ---------*/
+
+.l-py-0-25 {padding-left: 0.25rem; /* 4px */padding-right: 0.25rem; /* 4px */}
+.l-py-0-5 {padding-left: 0.5rem; /* 8px */padding-right: 0.5rem; /* 8px */}
+.l-py-0-75 {padding-left: 0.75rem; /* 12px */padding-right: 0.75rem; /* 12px */}
+.l-py-1 {padding-left: 1rem; /* 16px */padding-right: 1rem; /* 16px */}
+.l-py-1-25 {padding-left: 1.25rem; /* 20px */padding-right: 1.25rem; /* 20px */}
+.l-py-1-5 {padding-left: 1.5rem; /* 24px */padding-right: 1.5rem; /* 24px */}
+.l-py-1-75 {padding-left: 1.75rem; /* 28px */padding-right: 1.75rem; /* 28px */}
+.l-py-2 {padding-left: 2rem; /* 32px */padding-right: 2rem; /* 32px */}
+.l-py-2-25 {padding-left: 2.25rem; /* 36px */padding-right: 2.25rem; /* 36px */}
+.l-py-2-5 {padding-left: 2.5rem; /* 40px */padding-right: 2.5rem; /* 40px */}
+.l-py-2-75 {padding-left: 2.75rem; /* 44px */padding-right: 2.75rem; /* 44px */}
+.l-py-3 {padding-left: 3rem; /* 48px */padding-right: 3rem; /* 48px */}
+.l-py-3-25 {padding-left: 3.25rem; /* 52px */padding-right: 3.25rem; /* 52px */}
+.l-py-3-5 {padding-left: 3.5rem; /* 56px */padding-right: 3.5rem; /* 56px */}
+.l-py-3-75 {padding-left: 3.75rem; /* 60px */padding-right: 3.75rem; /* 60px */}
+.l-py-4 {padding-left: 4rem; /* 64px */padding-right: 4rem; /* 64px */}
+.l-py-4-25 {padding-left: 4.25rem; /* 68px */padding-right: 4.25rem; /* 68px */}
+.l-py-4-5 {padding-left: 4.5rem; /* 72px */padding-right: 4.5rem; /* 72px */}
+.l-py-4-75 {padding-left: 4.75rem; /* 76px */padding-right: 4.75rem; /* 76px */}
+.l-py-5 {padding-left: 5rem; /* 80px */padding-right: 5rem; /* 80px */}
+
+/*----------- Vertical Margin classes ---------*/
+
+.l-my-0-25 {padding-left: 0.25rem; /* 4px */padding-right: 0.25rem; /* 4px */}
+.l-my-0-5 {padding-left: 0.5rem; /* 8px */padding-right: 0.5rem; /* 8px */}
+.l-my-0-75 {padding-left: 0.75rem; /* 12px */padding-right: 0.75rem; /* 12px */}
+.l-my-1 {padding-left: 1rem; /* 16px */padding-right: 1rem; /* 16px */}
+.l-my-1-25 {padding-left: 1.25rem; /* 20px */padding-right: 1.25rem; /* 20px */}
+.l-my-1-5 {padding-left: 1.5rem; /* 24px */padding-right: 1.5rem; /* 24px */}
+.l-my-1-75 {padding-left: 1.75rem; /* 28px */padding-right: 1.75rem; /* 28px */}
+.l-my-2 {padding-left: 2rem; /* 32px */padding-right: 2rem; /* 32px */}
+.l-my-2-25 {padding-left: 2.25rem; /* 36px */padding-right: 2.25rem; /* 36px */}
+.l-my-2-5 {padding-left: 2.5rem; /* 40px */padding-right: 2.5rem; /* 40px */}
+.l-my-2-75 {padding-left: 2.75rem; /* 44px */padding-right: 2.75rem; /* 44px */}
+.l-my-3 {padding-left: 3rem; /* 48px */padding-right: 3rem; /* 48px */}
+.l-my-3-25 {padding-left: 3.25rem; /* 52px */padding-right: 3.25rem; /* 52px */}
+.l-my-3-5 {padding-left: 3.5rem; /* 56px */padding-right: 3.5rem; /* 56px */}
+.l-my-3-75 {padding-left: 3.75rem; /* 60px */padding-right: 3.75rem; /* 60px */}
+.l-my-4 {padding-left: 4rem; /* 64px */padding-right: 4rem; /* 64px */}
+.l-my-4-25 {padding-left: 4.25rem; /* 68px */padding-right: 4.25rem; /* 68px */}
+.l-my-4-5 {padding-left: 4.5rem; /* 72px */padding-right: 4.5rem; /* 72px */}
+.l-my-4-75 {padding-left: 4.75rem; /* 76px */padding-right: 4.75rem; /* 76px */}
+.l-my-5 {padding-left: 5rem; /* 80px */padding-right: 5rem; /* 80px */}
 
 /*Container classes*/
 .container-mobile {
