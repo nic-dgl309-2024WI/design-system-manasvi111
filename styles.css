@@ -372,7 +372,113 @@ ol {
 /*10*/
 .l-p-10 {padding: 10rem;} /* 160px */
 
+/********************** Padding Left classes *******************/
+.l-pl-0-25 {margin-left: 0.25rem;} /* 4px */
+.l-pl-0-5 {margin-left: 0.5rem;} /* 8px */
+.l-pl-0-75 {margin-left: 0.75rem;} /* 12px */
+/*1*/
+.l-pl-1 {margin-left: 1rem;} /* 16px */
+.l-pl-1-25 {margin-left: 1.25rem;} /* 20px */
+.l-pl-1-5 {margin-left: 1.5rem;} /* 24px */
+.l-pl-1-75 {margin-left: 1.75rem;} /* 28px */
+/*2*/
+.l-pl-2 {margin-left: 2rem;} /* 32px */
+.l-pl-2-25 {margin-left: 2.25rem;} /* 36px */
+.l-pl-2-5 {margin-left: 2.5rem;} /* 40px */
+.l-pl-2-75 {margin-left: 2.75rem;} /* 44px */
+/*3*/
+.l-pl-3 {margin-left: 3rem;} /* 48px */
+.l-pl-3-25 {margin-left: 3.25rem;} /* 52px */
+.l-pl-3-5 {margin-left: 3.5rem;} /* 56px */
+.l-pl-3-75 {margin-left: 3.75rem;} /* 60px */
+/*4*/
+.l-pl-4 {margin-left: 4rem;} /* 64px */
+.l-pl-4-25 {margin-left: 4.25rem;} /* 68px */
+.l-pl-4-5 {margin-left: 4.5rem;} /* 72px */
+.l-pl-4-75 {margin-left: 4.75rem;} /* 76px */
+/*5*/
+.l-pl-5 {margin-left: 5rem;} /* 80px */
 
+/********************** Padding right classes *******************/
+.l-pr-0-25 {margin-left: 0.25rem;} /* 4px */
+.l-pr-0-5 {margin-left: 0.5rem;} /* 8px */
+.l-pr-0-75 {margin-left: 0.75rem;} /* 12px */
+/*1*/
+.l-pr-1 {margin-left: 1rem;} /* 16px */
+.l-pr-1-25 {margin-left: 1.25rem;} /* 20px */
+.l-pr-1-5 {margin-left: 1.5rem;} /* 24px */
+.l-pr-1-75 {margin-left: 1.75rem;} /* 28px */
+/*2*/
+.l-pr-2 {margin-left: 2rem;} /* 32px */
+.l-pr-2-25 {margin-left: 2.25rem;} /* 36px */
+.l-pr-2-5 {margin-left: 2.5rem;} /* 40px */
+.l-pr-2-75 {margin-left: 2.75rem;} /* 44px */
+/*3*/
+.l-pr-3 {margin-left: 3rem;} /* 48px */
+.l-pr-3-25 {margin-left: 3.25rem;} /* 52px */
+.l-pr-3-5 {margin-left: 3.5rem;} /* 56px */
+.l-pr-3-75 {margin-left: 3.75rem;} /* 60px */
+/*4*/
+.l-pr-4 {margin-left: 4rem;} /* 64px */
+.l-pr-4-25 {margin-left: 4.25rem;} /* 68px */
+.l-pr-4-5 {margin-left: 4.5rem;} /* 72px */
+.l-pr-4-75 {margin-left: 4.75rem;} /* 76px */
+/*5*/
+.l-pr-5 {margin-left: 5rem;} /* 80px */
+
+/********************** Padding Top classes *******************/
+.l-pt-0-25 {margin-left: 0.25rem;} /* 4px */
+.l-pt-0-5 {margin-left: 0.5rem;} /* 8px */
+.l-pt-0-75 {margin-left: 0.75rem;} /* 12px */
+/*1*/
+.l-pt-1 {margin-left: 1rem;} /* 16px */
+.l-pt-1-25 {margin-left: 1.25rem;} /* 20px */
+.l-pt-1-5 {margin-left: 1.5rem;} /* 24px */
+.l-pt-1-75 {margin-left: 1.75rem;} /* 28px */
+/*2*/
+.l-pt-2 {margin-left: 2rem;} /* 32px */
+.l-pt-2-25 {margin-left: 2.25rem;} /* 36px */
+.l-pt-2-5 {margin-left: 2.5rem;} /* 40px */
+.l-pt-2-75 {margin-left: 2.75rem;} /* 44px */
+/*3*/
+.l-pt-3 {margin-left: 3rem;} /* 48px */
+.l-pt-3-25 {margin-left: 3.25rem;} /* 52px */
+.l-pt-3-5 {margin-left: 3.5rem;} /* 56px */
+.l-pt-3-75 {margin-left: 3.75rem;} /* 60px */
+/*4*/
+.l-pt-4 {margin-left: 4rem;} /* 64px */
+.l-pt-4-25 {margin-left: 4.25rem;} /* 68px */
+.l-pt-4-5 {margin-left: 4.5rem;} /* 72px */
+.l-pt-4-75 {margin-left: 4.75rem;} /* 76px */
+/*5*/
+.l-pt-5 {margin-left: 5rem;} /* 80px */
+
+/********************** Padding Bottom classes *******************/
+.l-pb-0-25 {margin-left: 0.25rem;} /* 4px */
+.l-pb-0-5 {margin-left: 0.5rem;} /* 8px */
+.l-pb-0-75 {margin-left: 0.75rem;} /* 12px */
+/*1*/
+.l-pb-1 {margin-left: 1rem;} /* 16px */
+.l-pb-1-25 {margin-left: 1.25rem;} /* 20px */
+.l-pb-1-5 {margin-left: 1.5rem;} /* 24px */
+.l-pb-1-75 {margin-left: 1.75rem;} /* 28px */
+/*2*/
+.l-pb-2 {margin-left: 2rem;} /* 32px */
+.l-pb-2-25 {margin-left: 2.25rem;} /* 36px */
+.l-pb-2-5 {margin-left: 2.5rem;} /* 40px */
+.l-pb-2-75 {margin-left: 2.75rem;} /* 44px */
+/*3*/
+.l-pb-3 {margin-left: 3rem;} /* 48px */
+.l-pb-3-25 {margin-left: 3.25rem;} /* 52px */
+.l-pb-3-5 {margin-left: 3.5rem;} /* 56px */
+.l-pb-3-75 {margin-left: 3.75rem;} /* 60px */
+/*4*/
+.l-pb-4 {margin-left: 4rem;} /* 64px */
+.l-pb-4-25 {margin-left: 4.25rem;} /* 68px */
+.l-pb-4-5 {margin-left: 4.5rem;} /* 72px */
+.l-pb-4-75 {margin-left: 4.75rem;} /* 76px */
+/*5*/
+.l-pb-5 {margin-left: 5rem;} /* 80px */
 
 
 /*Container classes*/
