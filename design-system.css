@@ -146,6 +146,9 @@ tr:nth-child(even) {
   .hamburger {
     display: none;
   }
+  body{
+    line-height: var(--ln-height);
+  }
   
   /* Show top nav links on larger screens */
   .mainNav__links {

@@ -28,7 +28,7 @@
    --fo-ls:  1px;
 
    /*Line- Height*/
-   --ln-height: 1.5rem;
+   --ln-height: 5rem;
 }
 
 /* CSS reset*/
@@ -113,4 +113,4 @@ ol {
 .u-letterspace{letter-spacing: var(--fo-ls)}
 
 /*Line height*/
-.u-lh-half{line-height: var(--lh-height);}
+.u-line-height{line-height: var(--lh-height);}
