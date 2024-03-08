@@ -577,6 +577,13 @@ ol {
   padding-top: 10%;
 }
 
+/************ Add flex utility classes ************/
+/* Flex Container */
+.l-flex {
+  display: flex; /* Make the container a flex container */
+}
+
+
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
 .container {margin-left: 250px;padding: 50px;}

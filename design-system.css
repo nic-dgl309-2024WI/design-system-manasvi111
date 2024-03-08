@@ -210,7 +210,45 @@ tr:nth-child(even) {
   tr:nth-child(even) {
     background-color: var(--clr-white);
   }
+  .container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .table-container {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .values {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-bottom: 3.5px; /* Optional: Add margin between each value block */
+  }
 
+.values span {
+  flex: 1;
+  text-align: left;
+}
+
+.values span:first-child {
+  margin-right: 10px;
+}
+  
+  /* Add additional styling for tables if needed */
+  
   /* Container margin for larger screens */
 
 }
