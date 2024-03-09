@@ -137,6 +137,7 @@ tr:nth-child(even) {
   background-color: var(--clr-white);
 }
 
+
 /* Container padding for main content */
 
 
@@ -184,7 +185,6 @@ tr:nth-child(even) {
     
     
   }
-
   /* Main body background color for larger screens */
   .main__body {
     background-color: var(--clr-background);
@@ -210,13 +210,17 @@ tr:nth-child(even) {
   tr:nth-child(even) {
     background-color: var(--clr-white);
   }
-  .container {
+  /* CSS specific to the table on your specific page */
+  .sp-container {
     display: flex;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
   }
-  
+  .section{
+    border: 1px solid #ccc; /* Add outside border */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+  }
   .table-container {
     flex: 1;
     border: 1px solid #ccc;
@@ -226,6 +230,7 @@ tr:nth-child(even) {
     padding: 20px;
   }
   h3 {
+    margin-top: 1.2rem;
     font-size: 1.5em;
     color: #333;
     margin-bottom: 20px;
@@ -246,7 +251,7 @@ tr:nth-child(even) {
 .values span:first-child {
   margin-right: 10px;
 }
-  
+
   /* Add additional styling for tables if needed */
   
   /* Container margin for larger screens */
