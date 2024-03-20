@@ -243,8 +243,7 @@ th {
   margin-right: 10px;
 }
 
-  /* Add additional styling for tables if needed */
-  
-  /* Container margin for larger screens */
-
+.other-content{
+  display: flex;
+}
 }
