@@ -131,15 +131,7 @@ th {
   color: var(--clr-white-text);
   font-size: 20px;
 }
-
-/* Alternate row background color */
-tr:nth-child(even) {
-  background-color: var(--clr-white);
-}
-
-
 /* Container padding for main content */
-
 
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
@@ -182,9 +174,8 @@ tr:nth-child(even) {
     padding-top: 0;
     font-family: var(--ff-nunito);
     font-size: var(--fs-nunito);
-    
-    
   }
+  
   /* Main body background color for larger screens */
   .main__body {
     background-color: var(--clr-background);
