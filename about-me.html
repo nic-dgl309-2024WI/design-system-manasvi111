@@ -1,88 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="design-system.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="design-system.css">
+  <title>Design System</title>
+</head>
+<body class="main__body u-line-height">
+  <!-- Top navbar -->
+  <header class="mainNav" id="myMainnav">
+    <a href="index.html" class="mainNav__link mainNav__link--logo .mainNav__link.active">Design System</a>
+    <span class="toggle-nav" onclick="toggleNav()">
+      <span class="hamburger">&#9776;</span>
+      <span class="cancel" style="display: none">&#10006;</span>
+    </span>
+    <div class="mainNav__links">
+      <a href="about-me.html" class="mainNav__link">About Me</a>
+      <a href="#" class="mainNav__link">Demo Site</a>
+    </div>
+  </header>
 
-    <!--Pt sans-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,600;1,6..12,600&family=PT+Sans:wght@400;700&family=Protest+Strike&family=Roboto&display=swap" rel="stylesheet">
-
-    <!--Lato 400 regular-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700;900&family=Protest+Strike&family=Roboto&display=swap" rel="stylesheet">
-
-    <!--Nunito sans-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,600;1,6..12,600&family=Protest+Strike&family=Roboto&display=swap" rel="stylesheet">
-
-
-    <title>Design System</title>
-  </head>
-  <body class="main__body u-line-height">
-    <!--Top navbar-->
-    <div class="mainNav" id="myMainnav">
-        <a href="index.html" class="mainNav__link mainNav__link--logo .mainNav__link.active">Design System</a>
-  
-        <!-- Hamburger icon -->
-        <span class="toggle-nav" onclick="toggleNav()">
-          <span class="hamburger">&#9776;</span>
-          <!-- Cancel icon initially hidden -->
-          <span class="cancel" style="display: none">&#10006;</span>
-        </span>
-  
-        <!--Other pages-->
-        <div class="mainNav__links">
-          <a href="about-me.html" class="mainNav__link">About Me</a>
-          <a href="#" class="mainNav__link">Demo Site</a>
-        </div>
-      </div>  
-
-    
-  <body>
-    <!--About me page-->
-    <div class="container container-mobile">
+  <!-- About me page content -->
+  <div class="container container-mobile">
     <div class="main_content">
-      <!-- add the name and the role -->
-      
-    <h1>Hi! My name is Manasvi Thakkar.</h1>
-    <h2>I am a web developer and Digital Marketer.</h2>
-    <!-- add the portrait photo -->
-    <img
-      src="images/professional photo.jpeg"
-      alt="Portrait of lorem ipsum"
-      style="width: 500px; height: 500px"
-    />
-    <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
-    <p style="font-size: 20px;">
-      Hello Everyone,
-      I am Manasvi and you can call me as Manu or Minu. I'm originally from Gujarat, in the north of India. I earned a Bachelor of Science in Information Technology from my home country, and following graduation, I gained expertise in two different fields: digital marketing and web development. I then moved to Canada to do my postgraduate diploma degree in Digital Design + Web Development, specialising in web stream. I'm in my third semester right now. I also work as a guest services agent full-time at the Holiday Inn Hotel.
-    </p><br>
-    <!-- add a list of your favourite web development tools. -->
-    <div class="other-content">
-    <p style="font-size: 20px;">My favourite tools are</p>
-    <ul style="font-size: 17px;">
-      <li>Boostrap</li>
-      <li>Java script</li>
-      <li>WordPress</li>
-    </ul>
-    <!-- add a list of your strongest web development skills. -->
-    <p style="font-size: 20px;">My skills include</p>
-    <ul style="font-size: 17px;">
-      <li>HTML/CSS</li>
-      <li>ASP.net</li>
-      <li>PHP</li>
-    </ul>
+      <h1 class=" u-ff-pt u-ff-pt-700 u-ft-ptsize u-ft-bold">Hi! My name is Manasvi Thakkar.</h1>
+      <h2 class="u-ff-lato u-ff-lato-600 l-mb-1-25">I am a web developer and Digital Marketer.</h2>
+      <img src="images/professional photo.jpeg" alt="Portrait of Manasvi Thakkar" class="l-mb-1-25" style="width: 500px; height: 500px">
+      <p class="u-ff-nunito u-ff-nunito-400">Hello Everyone, I am Manasvi and you can call me Manu or Minu. I'm originally from Gujarat, in the north of India. I earned a Bachelor of Science in Information Technology from my home country, and following graduation, I gained expertise in two different fields: digital marketing and web development. I then moved to Canada to pursue my postgraduate diploma degree in Digital Design + Web Development, specializing in the web stream. I'm currently in my third semester. I also work as a guest services agent full-time at the Holiday Inn Hotel.</p>
+      <div class="other-content">
+        <div class="favorite-tools ">
+          <h3 class="u-ff-lato u-ff-lato-600">My favourite tools are</h3>
+          <ul class="u-ff-nunito u-ff-nunito-400">
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>WordPress</li>
+          </ul>
+        </div>
+        <div class="skills">
+          <h3 class="u-ff-lato u-ff-lato-600">My skills include</h3>
+          <ul class="u-ff-nunito u-ff-nunito-400">
+            <li>HTML/CSS</li>
+            <li>ASP.net</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-</div>
-  </body>
-  
+
   <script src="design-system.js"></script>
 </body>
 </html>

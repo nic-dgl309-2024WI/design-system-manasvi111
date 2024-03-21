@@ -13,15 +13,15 @@
 
     /*Typography variables*/
     --ff-pt: "PT", sans-serif;
-   --ff-lato: "Lato", serif;
+   --ff-lato: "Lato", sans-serif;
    --ff-nunito: "Nunito", sans-serif;
    --fw-700: 700;
    --fw-600: 600; 
    --fw-400: 400;
    --fs-regular: normal;
    --fs-bold: bold;
-   --ft-ptsize: 24px;
-   --ft-latosize: 20px;
+   --ft-ptsize: 32px;
+   --ft-latosize: 24px;
    --ft-nnsize: 18px;
 
    /*Letter spacing*/
@@ -57,36 +57,7 @@ ul,
 ol {
     padding: 0;
 }
-/* color pallete (swatches) */
-/*For universal contents(header, footer)*/
-.u-universal-bg{
-    color: #FFFFFF;
-    background-color: var(--clr-universal);
-  }
-  .u-universal-text{
-    background-color: var(--clr-white);
-  }
-  /*For body background and text color*/
-  .u-bg{
-    background-color:var(--clr-background) ;
-  }
-  .u-text{
-    color: azure;
-    background-color: var(--clr-bodytext);
-  }
-  .u-hover{
-    color: #FFFFFF;
-    background-color: var(--clr-hover);
-  }
-  /*For CTA*/
-  .u-accent-cta{
-    color: azure;
-    background-color:var(--clr-accent) ;
-  }
-  .u-accent-hover{
-    color: #FFFFFF;
-    background-color: var(--clr-accent-hover);
-  } 
+
 
 /* Typography font family classes */
 /*font Family*/
