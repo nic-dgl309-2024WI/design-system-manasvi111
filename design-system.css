@@ -108,6 +108,7 @@
 .main__body {
   background-color: var(--clr-background);
   overflow-y: auto;
+  
 }
 
 /* Styles for the hamburger icon */
@@ -233,6 +234,7 @@ th {
   }
   /* CSS specific to the table on your specific page */
   .sp-container {
+    text-align: center;
     display: flex;
     max-width: 800px;
     margin: 0 auto;
@@ -304,9 +306,22 @@ th {
 /*color*/
 /* color pallete (swatches) */
 /*For universal contents(header, footer)*/
+
+
 .color-container{
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
+}
+.color-card {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.color-info {
+  text-align: center;
 }
 .u-universal-bg{
   height: 70px;
