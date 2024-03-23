@@ -44,7 +44,10 @@
 /* Active link styling */
 .mainNav__link.active {
   font-weight: bold; /* Example style for the active link */
-  color: var(--clr-dgray); /* Example color for the active link */
+  color: var(--clr-white); /* Example color for the active link */
+  background-color: var(--clr-dgray); /* Add a background color */
+  border-radius: 5px; /* Add rounded corners */
+  padding: 10px 20px; /* Increase padding for better visibility */
 }
 /* Add this to your existing CSS file */
 .hamburger-menu {
@@ -66,10 +69,7 @@
   display: none;
 }
 
-/* Show nav links when active class is present */
-.mainNav__links.active {
-  display: block;
-}
+
 
 
 /* Media query for screens larger than 700px */
@@ -89,11 +89,7 @@
     font-weight: var(--fw-700);
   }
 
-  /* Active link styling for larger screens */
-  .mainNav__link.active {
-    font-weight: bold;
-    color: var(--clr-dgray);
-  }
+
 }
 
 :root{
