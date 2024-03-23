@@ -27,7 +27,7 @@
 .mainNav__link {
   color: var(--clr-white);
   text-decoration: none;
-  padding: 14px 16px;
+  padding: 14px 22px;
 }
 
 /* Hide other nav links by default */
@@ -45,6 +45,12 @@
 .mainNav__link.active {
   font-weight: bold; /* Example style for the active link */
   color: var(--clr-dgray); /* Example color for the active link */
+}
+/* Styles for the hamburger icon */
+.hamburger {
+  display: block;
+  cursor: pointer;
+  color: var(--clr-white);
 }
 
 /* Media query for screens larger than 700px */
