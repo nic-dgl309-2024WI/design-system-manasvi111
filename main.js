@@ -4,7 +4,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Add 'active' class to the current page link
     var currentPage = window.location.href;
-    var links = document.querySelectorAll(".mainNav__link, .sidenav__link");
+    var links = document.querySelectorAll(".mainNav__link, .sidenav__links");
   
     links.forEach(function (link) {
       if (link.href === currentPage) {
