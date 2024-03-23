@@ -9,6 +9,10 @@ header{
 li{
   list-style: none;
 }
+a{
+  color: var(--clr-white-text);
+  text-decoration: none;
+}
 .mainNav {
   display: flex;
   justify-content: space-between;
