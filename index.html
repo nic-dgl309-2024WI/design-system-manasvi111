@@ -22,27 +22,37 @@
 
 
     <title>Outback Nursery</title>
-  </head>
-  <body class="main__body u-line-height">
-    <!--Top navbar-->
-    <header class="mainNav" id="myMainnav">
-        <a href="index.html" class="mainNav__link mainNav__link--logo .mainNav__link.active">Outback Nursery</a>
-  
-        <!-- Hamburger icon -->
-        <span class="toggle-nav" onclick="toggleNav()">
-          <span class="hamburger">&#9776;</span>
-          <!-- Cancel icon initially hidden -->
-          <span class="cancel" style="display: none">&#10006;</span>
-        </span>
-  
-        <!--Other pages-->
-        <div class="mainNav__links" id="myMainnav">
-          <a href="#" class="mainNav__link">Products</a>
-          <a href="#" class="mainNav__link">Resources</a>
-          <a href="#" class="mainNav__link">About Us</a>
-          <a href="#" class="mainNav__link">Contact Us</a>
-        </div>
-    </header>  
+</head>
+<body class="main__body u-line-height">
+  <!--Top navbar-->
+  <div class="mainNav" id="myMainnav">
+      <a href="index.html" class="mainNav__link mainNav__link--logo .mainNav__link.active">Outback Nursery</a>
+
+      <!-- Hamburger icon -->
+      <span class="toggle-nav" onclick="toggleNav()">
+        <span class="hamburger">&#9776;</span>
+        <!-- Cancel icon initially hidden -->
+        <span class="cancel" style="display: none">&#10006;</span>
+      </span>
+
+      <!--Other pages-->
+      <div class="mainNav__links">
+        <a href="about-me.html" class="mainNav__link">Products</a>
+        <a href="#" class="mainNav__link">Resources</a>
+        <a href="#" class="mainNav__link">About US</a>
+        <a href="#" class="mainNav__link">Contact Us</a>
+      </div>
+    </div>  
+
+  <!--Side navbar-->
+  <div class="side-nav" id="mySidenav">
+    <ul class="sidenav__list">
+      <!--For mobile view-->
+      <!--main sublinks in side nav-->
+      <a href="about-me.html" class="sidenav__links">Products</a>
+      <a href="#" class="sidenav__links">Resources</a><br>
+      <a href="#" class="mainNav__link">About US</a>
+      <a href="#" class="mainNav__link">Contact Us</a>
 
 </body>
 </html>

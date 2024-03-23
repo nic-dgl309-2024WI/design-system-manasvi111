@@ -1,40 +1,30 @@
 // Reference: Chatgpt
 // Made changes according to my code
 // design-system.js
-function toggleNav() {
-  var sidenav = document.getElementById("myMainnav");
-  var hamburger = document.querySelector(".hamburger");
-  var cancel = document.querySelector(".cancel");
-
-  // Toggle the side navbar
-  if (sidenav.style.display === "block") {
-      sidenav.style.display = "none";
-      hamburger.style.display = "inline-block";
-      cancel.style.display = "none";
-  } else {
-      sidenav.style.display = "block";
-      hamburger.style.display = "none";
-      cancel.style.display = "inline-block";
-  }
-}
-
+document.addEventListener("DOMContentLoaded", function () {
+    // Add 'active' class to the current page link
+    var currentPage = window.location.href;
+    var links = document.querySelectorAll(".mainNav__link, .sidenav__link");
   
- /*
+    links.forEach(function (link) {
+      if (link.href === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  });
+  
   function toggleNav() {
-    var navLinks = document.getElementById("navLinks");
-    var cancelIcon = document.querySelector(".cancel");
-    var hamburgerIcon = document.querySelector(".hamburger");
-
-    // Get the computed style of navLinks
-    var computedStyle = window.getComputedStyle(navLinks);
-
-    if (computedStyle.display === "block") {
-        navLinks.style.display = "none";
-        cancelIcon.style.display = "none";
-        hamburgerIcon.style.display = "inline";
-    } else {
-        navLinks.style.display = "block";
-        cancelIcon.style.display = "inline";
-        hamburgerIcon.style.display = "none";
-    }
-}*/
+    var sidenav = document.getElementById("mySidenav");
+    var hamburger = document.querySelector(".hamburger");
+    var cancel = document.querySelector(".cancel");
+  
+    // Toggle the side navbar
+    sidenav.style.display = sidenav.style.display === "block" ? "none" : "block";
+  
+    // Toggle the visibility of hamburger and cancel icons
+    hamburger.style.display =
+      hamburger.style.display === "none" ? "inline-block" : "none";
+    cancel.style.display =
+      cancel.style.display === "none" ? "inline-block" : "none";
+  }
+  
