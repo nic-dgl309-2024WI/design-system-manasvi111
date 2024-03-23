@@ -1,3 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: var(--clr-universal);
+}
+li{
+  list-style: none;
+}
 .mainNav {
   display: flex;
   justify-content: space-between;

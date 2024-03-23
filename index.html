@@ -25,39 +25,32 @@
 </head>
 <body class="main__body u-line-height">
   <!--Top navbar-->
-  <div class="mainNav" id="myMainnav">
-      <a href="index.html" class="mainNav__link mainNav__link--logo .mainNav__link.active">Outback Nursery</a>
+  <header>
+    <nav class="navbar">
+        <a href="#" class="nav-branding">Outback Nursery</a>
 
-      <!-- Hamburger icon -->
-      <span class="toggle-nav" onclick="toggleNav()">
-        <span class="hamburger">&#9776;</span>
-        <div class="hamburger-menu">
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-          </div>
-        <!-- Cancel icon initially hidden -->
-        <span class="cancel" style="display: none">&#10006;</span>
-      </span>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact Us</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
 
-      <!--Other pages-->
-      <div class="mainNav__links">
-        <a href="about-me.html" class="mainNav__link">Products</a>
-        <a href="design-system.html" class="mainNav__link">Resources</a>
-        <a href="#" class="mainNav__link">About US</a>
-        <a href="#" class="mainNav__link">Contact Us</a>
-      </div>
-    </div>  
-
-  <!--Side navbar-->
-  <div class="side-nav" id="mySidenav">
-    <ul class="sidenav__list">
-      <!--For mobile view-->
-      <!--main sublinks in side nav-->
-      <a href="about-me.html" class="sidenav__links">Products</a>
-      <a href="#" class="sidenav__links">Resources</a><br>
-      <a href="#" class="mainNav__link">About US</a>
-      <a href="#" class="mainNav__link">Contact Us</a>
+    </nav>
+  </header>
 
 <script src="main.js"></script>
 
