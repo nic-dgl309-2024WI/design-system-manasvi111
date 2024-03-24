@@ -82,12 +82,12 @@ a{
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #FFFFFF;
+  background-color: var(--clr-background);
 }
 .marquee{
   position: relative; 
   width: 100%;
-  background-color: #fff9c4;
+  background-color: var(--clr-marquee);
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
@@ -152,6 +152,7 @@ a{
     --clr-accent-hover: #533d2f;
     --clr-white:#FFFFFF; /*for background*/
     --clr-dgray: #464140;
+    --clr-marquee: #fff9c4;
 
     /*Typography variables*/
     --ff-pt: "PT", sans-serif;
