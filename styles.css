@@ -84,6 +84,22 @@ a{
   transition: all 0.3s ease-in-out;
   background-color: #FFFFFF;
 }
+.marquee{
+  width: 80%;
+  background-color: aqua;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.marquee div{
+  font-family: var(--ff-lato);
+  font-size: var(--fw-600);
+  animation: animate 5s linear infinite;
+}
+@keyframes animate{
+  100%{
+    transform: translate(-100%, 0);
+  }
+}
 @media(max-width:768px){
   .hamburger{
     display: block;

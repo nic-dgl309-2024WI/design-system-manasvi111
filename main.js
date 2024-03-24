@@ -9,3 +9,11 @@ document.querySelectorAll(".mainNav__links").forEach(n => n.addEventListener("cl
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }))
+// Example: Stop marquee on hover
+const marquee = document.querySelector('.marquee');
+marquee.addEventListener('mouseenter', function() {
+  this.stop();
+});
+marquee.addEventListener('mouseleave', function() {
+  this.start();
+});
