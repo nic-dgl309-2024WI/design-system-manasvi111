@@ -27,7 +27,7 @@ a{
   width: 100%; /* Occupy full width */
   top: 0; /* Position at the top */
   left: 0;
-  z-index: 1000; /* Ensure the navbar is above other content */
+  padding-top: 30px;
 }
 .nav-menu{
   display: flex;
@@ -85,15 +85,23 @@ a{
   background-color: #FFFFFF;
 }
 .marquee{
-  width: 80%;
-  background-color: aqua;
+  position: relative; 
+  width: 100%;
+  background-color: #8fd1e6;
   text-transform: uppercase;
   white-space: nowrap;
+  overflow: hidden;
+  z-index: 999;
+  top: 0;
 }
 .marquee div{
   font-family: var(--ff-lato);
   font-size: var(--fw-600);
-  animation: animate 5s linear infinite;
+  animation: animate 30s linear infinite;
+  padding-left: 100% ;
+  display: inline-block;
+  height: 100%;
+  align-items: center;
 }
 @keyframes animate{
   100%{
