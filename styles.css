@@ -13,7 +13,8 @@ a{
   color: var(--clr-white-text);
   text-decoration: none;
 }
-.mainNav {
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +29,13 @@ a{
   left: 0;
   z-index: 1000; /* Ensure the navbar is above other content */
 }
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
 
+  align-items: center;
+  gap: 60px;
+}
 /* Logo link styling */
 .mainNav__link--logo {
   color: var(--clr-white-text);
@@ -42,71 +49,73 @@ a{
 .mainNav__link {
   color: var(--clr-white);
   text-decoration: none;
-  padding: 14px 22px;
+  padding: 14px 16px;
 }
-
-/* Hide other nav links by default */
+/* Active link styling */
+.mainNav__link.active {
+  font-weight: bold; /* Example style for the active link */
+  color: var(--clr-dgray); /* Example color for the active link */
+}
+/* Show top nav links on larger screens */
 .mainNav__links {
-  display: none;
+    display: block;
+    font-family: var(--ff-pt);
+    font-weight: var(--fw-700);
 }
-
 /* Hover effect for nav links */
 .mainNav__link:hover {
   color: var(--clr-white);
   background-color: var(--clr-dgray);
 }
-
-/* Active link styling */
-.mainNav__link.active {
-  font-weight: bold; /* Example style for the active link */
-  color: var(--clr-white); /* Example color for the active link */
-  background-color: var(--clr-dgray); /* Add a background color */
-  border-radius: 5px; /* Add rounded corners */
-  padding: 10px 20px; /* Increase padding for better visibility */
+.mainNav__links:hover {
+  color: var(--clr-white);
+  background-color: var(--clr-dgray);
 }
-/* Add this to your existing CSS file */
-.hamburger-menu {
-  display: block;
+.hamburger{
+  display: none;
   cursor: pointer;
 }
-
-.hamburger-line {
-  width: 30px;
+.bar{
+  display: block;
+  width: 25px;
   height: 3px;
-  background-color: #ffffff; /* Adjust color as needed */
-  margin: 6px;
-  margin-right: 15px;
-  padding-right: 5px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #FFFFFF;
 }
-
-/* Hide the nav links by default */
-.mainNav__links {
-  display: none;
-}
-
-
-
-
-/* Media query for screens larger than 700px */
-@media screen and (min-width: 700px) {
-  /* Hide hamburger icon on larger screens */
-  .hamburger {
-    display: none;
-  }
-  body{
-    line-height: var(--ln-height);
-  }
-  
-  /* Show top nav links on larger screens */
-  .mainNav__links {
+@media(max-width:768px){
+  .hamburger{
     display: block;
-    font-family: var(--ff-pt);
-    font-weight: var(--fw-700);
   }
-
-
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: var(--clr-universal);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item{
+    margin: 16px 0;
+  }
+  .nav-menu.active{
+    left: 0;
+    
+  }
 }
-
 :root{
     /*Color variales*/
     --clr-background: #FFFFFF; /*Lightest color of the brown*/
