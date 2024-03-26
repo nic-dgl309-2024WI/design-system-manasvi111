@@ -70,6 +70,8 @@ a{
   transform: translateY(-4px); /* Add slight upward movement on hover */
 }
 
+
+
 .hamburger{
   display: none;
   cursor: pointer;
