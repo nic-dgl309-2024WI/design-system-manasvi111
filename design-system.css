@@ -325,7 +325,6 @@ justify-content: center;
   
 }
 .u-universal-bg{
-  height: 70px;
   display: flex;
   color: #FFFFFF;
   background-color: var(--clr-universal);

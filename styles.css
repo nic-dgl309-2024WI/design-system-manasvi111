@@ -62,15 +62,14 @@ a{
     font-family: var(--ff-pt);
     font-weight: var(--fw-700);
 }
-/* Hover effect for nav links */
-.mainNav__link:hover {
-  color: var(--clr-white);
-  background-color: var(--clr-dgray);
-}
+
+.mainNav__link:hover,
 .mainNav__links:hover {
   color: var(--clr-white);
-  background-color: var(--clr-dgray);
+  box-shadow: 0 2px 4px rgba(243, 215, 215, 0.1); /* Add shadow effect on hover */
+  transform: translateY(-4px); /* Add slight upward movement on hover */
 }
+
 .hamburger{
   display: none;
   cursor: pointer;
@@ -108,6 +107,7 @@ a{
     transform: translate(-100%, 0);
   }
 }
+
 @media(max-width:768px){
   .hamburger{
     display: block;
