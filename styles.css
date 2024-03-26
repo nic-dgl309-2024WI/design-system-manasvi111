@@ -5,6 +5,8 @@
 }
 header{
   background-color: var(--clr-universal);
+  width: 1140px;
+  max-width: 80%;
 }
 li{
   list-style: none;
@@ -69,8 +71,6 @@ a{
   box-shadow: 0 2px 4px rgba(243, 215, 215, 0.1); /* Add shadow effect on hover */
   transform: translateY(-4px); /* Add slight upward movement on hover */
 }
-
-
 
 .hamburger{
   display: none;
