@@ -109,7 +109,16 @@ a{
     transform: translate(-100%, 0);
   }
 }
-
+.carousel{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.carousel .list .item{
+  position: absolute;
+  inset: 0 0 0 0;
+}
 @media(max-width:768px){
   .hamburger{
     display: block;
