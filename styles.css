@@ -135,8 +135,25 @@ a{
   padding-right: 30%;
   box-sizing: border-box;
   color: var(--clr-bodytext);
-  
+  text-shadow: 0 5px 10px #004;
 }
+.carousel .list .item .content .heading1{
+
+}
+.carousel .list .item .content .heading2{
+  font-weight: bold;
+  font-size: 5em;
+  list-style: 1.3em;
+}
+.carousel .list .item .content .button{
+  margin-top: 20px;
+  border: none;
+  
+  letter-spacing: var(--fo-ls);
+  font-family: var(--ff-nunito);
+  font-weight: 500;
+}
+
 @media(max-width:768px){
   .hamburger{
     display: block;
