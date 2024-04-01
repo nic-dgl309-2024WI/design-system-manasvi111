@@ -253,6 +253,9 @@ a{
   width: 25%;
   padding: 3px;
 }
+.clm img{
+  height: 300px;
+}
 @media(max-width:768px){
   .hamburger{
     display: block;
