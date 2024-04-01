@@ -185,7 +185,44 @@ a{
   flex: 1;
   padding-left: 80px;
 }
+.card-section {
+  text-align: center;
+  height: 90vh;
+}
 
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 60vh;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 20px;
+  color: #ab312b;
+}
+
+.card-section h2 {
+  font-size: 38px;
+  color: var(--clr-universal);
+  text-transform: uppercase;
+}
 @media(max-width:768px){
   .hamburger{
     display: block;
