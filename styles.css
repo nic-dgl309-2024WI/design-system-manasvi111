@@ -186,6 +186,7 @@ a{
   padding-left: 80px;
 }
 .card-section {
+  margin-top: 30px;
   text-align: center;
   height: 90vh;
 }
@@ -217,7 +218,15 @@ a{
   margin-top: 20px;
   color: #ab312b;
 }
-
+.card-section button{
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: var(--clr-universal);
+  color: var(--clr-white-text);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
 .card-section h2 {
   font-size: 38px;
   color: var(--clr-universal);
