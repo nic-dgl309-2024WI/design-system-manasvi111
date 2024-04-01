@@ -149,8 +149,8 @@ a{
   justify-content: space-between;
   align-items: center;
   /* padding: 50px; */
-  background-color: black;
-  color: white;
+  background-color: var(--clr-universal);
+  color: var(--clr-white-text);
 }
 
 .carousel-part h2 {
@@ -174,7 +174,7 @@ a{
 
 .carousel-image {
   display: flex;
-  background-color: firebrick;
+  background-color: var(--clr-marquee);
   height: 100%;
   flex: 1;
   justify-content: center;
