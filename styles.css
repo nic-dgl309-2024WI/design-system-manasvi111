@@ -448,33 +448,64 @@ button:hover {
   background-color: #0056b3;
 }
 
-.accordeon {
-  width: 100%;
-  margin-top: 200px;
-  max-width: 900px;
+/* FAQ Section */
+.faq-section {
+  text-align: center;
 }
 
-.accordion-body {
-  display: none;
-  padding: 20px;
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: var(--clr-universal);
+}
 
+.accordeon {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  background-color: #fff; /* Background color for each accordion item */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .accordion-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--clr-universal);
   color: var(--clr-white-text);
   cursor: pointer;
-  padding: 10px;
+  padding: 20px;
   border: none;
   outline: none;
-  width: 100%;
-  text-align: left;
-  border-bottom: .5px solid var(--clr-black-40);
-  margin-bottom: 30px;
-  padding-bottom: 20px;
+  transition: background-color 0.3s ease;
 }
+
+.accordion-header:hover {
+  background-color: var(--clr-dgray); /* Change background color on hover */
+}
+
+.accordion-icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease; /* Add transition for icon rotation */
+}
+
+.accordion-body {
+  padding: 20px;
+  transition: max-height 0.3s ease; /* Add transition for accordion body expansion */
+  max-height: 0; /* Start with collapsed accordion body */
+  overflow: hidden;
+}
+
+.accordion-item.active .accordion-body {
+  max-height: 1000px; /* Expand accordion body on active state */
+}
+
 
 @media(max-width:768px){
   .hamburger{
