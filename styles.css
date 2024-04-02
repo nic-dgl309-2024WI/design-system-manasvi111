@@ -235,6 +235,20 @@ a{
   transition: background-color 0.3s ease;
   width: 35%;
 }
+.button{
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: var(--clr-universal);
+  color: var(--clr-white-text);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 35%;
+}
+.button:hover{
+  transform: scale(1.1);
+}
 .card-button:hover {
   transform: scale(1.1);
 }
@@ -489,6 +503,9 @@ button:hover {
 .accordion-header:hover {
   background-color: var(--clr-dgray); /* Change background color on hover */
 }
+.acc-heading{
+  font-size: var(--ft-nnsize);
+}
 
 .accordion-icon {
   font-size: 1.5rem;
@@ -500,6 +517,7 @@ button:hover {
   transition: max-height 0.3s ease; /* Add transition for accordion body expansion */
   max-height: 0; /* Start with collapsed accordion body */
   overflow: hidden;
+  font-size: var(--ft-nnsize);
 }
 
 .accordion-item.active .accordion-body , .acc-content{
