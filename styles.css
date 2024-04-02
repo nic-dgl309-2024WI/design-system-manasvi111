@@ -365,6 +365,7 @@ a{
 }
 /*********************CUSTOM CERTIFICATES*****************************/
 .certi-section{
+  padding: 10px;
   display: flex;
   margin-top: 30px;
   text-align: center;
@@ -380,6 +381,9 @@ a{
   padding-left: 30px;
   width: 500px; /* Adjust size as needed */
   margin-right: 20px; /* Adjust spacing between icon and form */
+}
+#certi{
+  
 }
 .certi-section button{
   margin-top: 30px;
@@ -399,7 +403,7 @@ a{
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: var(--clr-lgray);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -487,6 +491,7 @@ button:hover {
     --clr-accent-hover: #533d2f;
     --clr-white:#FFFFFF; /*for background*/
     --clr-dgray: #464140;
+    --clr-lgray: #f9f9f9;
     --clr-marquee: #fff9c4;
 
     /*Typography variables*/
