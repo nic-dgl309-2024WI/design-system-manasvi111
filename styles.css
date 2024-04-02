@@ -523,7 +523,10 @@ button:hover {
 .accordion-item.active .accordion-body , .acc-content{
   max-height: 1000px; /* Expand accordion body on active state */
 }
-
+.inline-link{
+  color: var(--clr-universal);
+  text-decoration: underline;
+}
 
 @media(max-width:768px){
   .hamburger{
