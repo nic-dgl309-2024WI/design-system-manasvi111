@@ -50,14 +50,14 @@ function toggleAccordion(element) {
 
   for (const otherItem of items) {
     if (otherItem !== item) {
-      otherItem.querySelector('.accordion-body').style.display = 'none';
+      otherItem.querySelector('.accordion-body').style.maxHeight = '0';
       otherItem.querySelector('.accordion-icon').textContent = '+';
     }
   }
 
   const body = item.querySelector('.accordion-body');
-  const isOpen = body.style.display === 'block';
-  
-  body.style.display = isOpen ? 'none' : 'block';
+  const isOpen = parseInt(body.style.maxHeight) > 0;
+
+  body.style.maxHeight = isOpen ? '0' : '1000px'; // Change '1000px' to a desired max-height value
   element.querySelector('.accordion-icon').textContent = isOpen ? '+' : '-';
 }
