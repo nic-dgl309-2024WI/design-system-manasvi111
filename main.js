@@ -17,4 +17,10 @@ marquee.addEventListener('mouseenter', function() {
 marquee.addEventListener('mouseleave', function() {
   this.start();
 });
-
+const images = [...document.querySelectorAll('.image')];
+// pop up
+const popup = document.querySelector('.popup');
+const closeBtn = document.querySelector('.close-btn');
+const imageName = document.querySelector('.image-name');
+const largeImage = document.querySelector('.large-image');
+const ImageIndex = document.querySelector('.index');
