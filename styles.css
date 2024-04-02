@@ -513,7 +513,8 @@ button:hover {
 }
 
 .accordion-body {
-  padding: 20px;
+  background-color: var(--clr-marquee);
+  padding: 0 20px;
   transition: max-height 0.3s ease; /* Add transition for accordion body expansion */
   max-height: 0; /* Start with collapsed accordion body */
   overflow: hidden;
@@ -522,6 +523,7 @@ button:hover {
 
 .accordion-item.active .accordion-body , .acc-content{
   max-height: 1000px; /* Expand accordion body on active state */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 .inline-link{
   color: var(--clr-universal);

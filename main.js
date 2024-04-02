@@ -58,6 +58,6 @@ function toggleAccordion(element) {
   const body = item.querySelector('.accordion-body');
   const isOpen = parseInt(body.style.maxHeight) > 0;
 
-  body.style.maxHeight = isOpen ? '0' : '1000px'; // Change '1000px' to a desired max-height value
+  body.style.maxHeight = isOpen ? '0' : body.scrollHeight + 'px'; // Change '1000px' to a desired max-height value
   element.querySelector('.accordion-icon').textContent = isOpen ? '+' : '-';
 }
