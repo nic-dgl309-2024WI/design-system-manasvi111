@@ -245,6 +245,17 @@ a{
   color: var(--clr-universal);
   text-transform: uppercase;
 }
+.category-section{
+  margin-top: 30px;
+  text-align: center;
+  height: 90vh;
+}
+.category-section h2 {
+  font-size: 38px;
+  color: var(--clr-universal);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 .category-section img{
   width: 100%;
 }
@@ -255,6 +266,17 @@ a{
 }
 .clm img{
   height: 300px;
+}
+.category-section button{
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: var(--clr-universal);
+  color: var(--clr-white-text);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 35%;
 }
 @media(max-width:768px){
   .hamburger{
