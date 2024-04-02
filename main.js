@@ -17,3 +17,4 @@ marquee.addEventListener('mouseenter', function() {
 marquee.addEventListener('mouseleave', function() {
   this.start();
 });
+
