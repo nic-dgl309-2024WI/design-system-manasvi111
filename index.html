@@ -147,8 +147,33 @@
   <section class="certi-section">
     <h2>Custom gift certificates</h2>
 
-    <button class="certi-button">Submit</button>
-  </section>
+        <form class="contact-inquiries">
+          <div class="form-control">
+            <label>Your Name (required)</label>
+            <input type="text"/>
+          </div>
+          <div class="form-control">
+            <label>Your Email (required)</label>
+            <input type="text"/>
+          </div>
+          <div class="form-control">
+            <label>Certificate Type (required)</label>
+            <select id="certi">
+              <option value="certi">Select Type</option>
+              <option value="general-certi">General Certi</option>
+              <option value="custom-certi">Customized Certi</option>
+            </select>
+            
+          </div>
+          <div class="form-control">
+            <label>Comments</label>
+            <input type="text"/>
+          </div>
+          <div class="form-control">
+            <button>Submit</button>
+          </div>
+        </form>
+    </section>
 
 
 <script src="main.js"></script>
