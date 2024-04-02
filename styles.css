@@ -262,12 +262,13 @@ a{
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
-  height: 20vh;
+  height: 18vh;
   background-color: var(--clr-marquee);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 .txt-card h3{
+  padding-top: 40px;
   color: var(--clr-universal);
   font-size: 30px;
   align-items: center;
