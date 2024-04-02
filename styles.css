@@ -365,14 +365,20 @@ a{
 }
 /*********************CUSTOM CERTIFICATES*****************************/
 .certi-section{
+  display: flex;
   margin-top: 30px;
   text-align: center;
 }
-.certi-section h2 {
+.heading {
   font-size: 38px;
   color: var(--clr-universal);
   text-transform: uppercase;
   margin-bottom: 20px;
+  text-align: center;
+}
+.certificate-icon {
+  width: 100px; /* Adjust size as needed */
+  margin-right: 20px; /* Adjust spacing between icon and form */
 }
 .certi-section button{
   margin-top: 30px;
@@ -387,7 +393,7 @@ a{
 }
 .contact-inquiries {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0;
   padding: 20px;
   border-radius: 10px;
   background-color: #f9f9f9;
