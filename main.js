@@ -17,10 +17,29 @@ marquee.addEventListener('mouseenter', function() {
 marquee.addEventListener('mouseleave', function() {
   this.start();
 });
-const images = [...document.querySelectorAll('.image')];
+const images = [...document.querySelectorAll('.txt-card')];
 // pop up
 const popup = document.querySelector('.popup');
 const closeBtn = document.querySelector('.close-btn');
 const imageName = document.querySelector('.image-name');
 const largeImage = document.querySelector('.large-image');
 const ImageIndex = document.querySelector('.index');
+
+let index = 0;
+
+images.forEach((item, i ) => {
+  item.addEventListener('click', () => {
+    updateImage(i);
+    popup.classList.toggle('active');
+  })
+})
+const updateImage = (i) => {
+  let path = `images/images${i+1}.jpg`;
+  largeImage.src = path;
+  imageName.innerHTML = path;
+  ImageIndex.innerHTML = `0${i+1}`;
+  index = i;
+}
+closeBtn.addEventListener('click', () => {
+  popup.classList.toggle('active');
+})
