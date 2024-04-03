@@ -100,7 +100,8 @@ a{
 }
 .marquee div{
   font-family: var(--ff-lato);
-  font-size: var(--fw-600);
+  color: var(--clr-universal);
+  font-size: 25px;
   animation: animate 30s linear infinite;
   padding-left: 100% ;
   display: inline-block;
