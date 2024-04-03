@@ -595,7 +595,20 @@ button:hover {
   font-size: 14px;
   line-height: 1.5;
 }
-
+.testi-btn{
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: var(--clr-universal);
+  color: var(--clr-white-text);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 35%;
+}
+.testi-btn:hover {
+  transform: scale(1.1);
+}
 @media(max-width:768px){
   .hamburger{
     display: block;
