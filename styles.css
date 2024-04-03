@@ -15,7 +15,10 @@ a{
   color: var(--clr-white-text);
   text-decoration: none;
 }
-
+.maxwidth-desktop{
+  max-width: 1170px;
+  margin: 0;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -598,14 +601,15 @@ button:hover {
 }
 .testi-btn{
   margin-top: 30px;
-  padding: 10px 20px;
+  margin-left: 40%;
+  
   background-color: var(--clr-universal);
   color: var(--clr-white-text);
   border: none;
   font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 35%;
+  width: 20%;
 }
 .testi-btn:hover {
   transform: scale(1.1);
