@@ -376,6 +376,7 @@ a{
   text-align: center;
 }
 .heading {
+  padding-top: 30px;
   font-size: 38px;
   color: var(--clr-universal);
   text-transform: uppercase;
