@@ -6,7 +6,7 @@
 header{
   background-color: var(--clr-universal);
   width: 1140px;
-  max-width: 80%;
+  max-width: 100%;
 }
 li{
   list-style: none;

@@ -262,6 +262,24 @@ th {
 .carousel-container{
   max-width: 800px;
 }
+.pagination {
+  gap: 10px; /* Adjust the spacing between pagination items */
+}
+
+.pagination__item {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0 4px;
+  background-color: var(--bg-primary); 
+  color: var(--text--white); 
+  text-decoration: none;
+  font-size: var(--font-size--standard); 
+  border-radius: 4px; 
+}
+
+.pagination__item:hover {
+  background-color: var(--bg-primary-dark); /* Darker shade for hover state */
+}
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
   /* Hide hamburger icon on larger screens */
