@@ -6,7 +6,7 @@
 header{
   background-color: var(--clr-universal);
   width: 1140px;
-  max-width: 100%;
+  max-width: 80%;
 }
 li{
   list-style: none;
@@ -312,7 +312,7 @@ a{
   height: 68vh;
   max-height: 800px;
   border-radius: 20px;
-  background:rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -333,6 +333,10 @@ a{
   transition: opacity .5s;
   transition-delay: 1s;
 }
+.popup.active .large-image {
+  opacity: 1;
+}
+
 .top-bar{
   position: absolute;
   top: 0;
@@ -361,16 +365,27 @@ a{
   object-fit: contain;
   opacity: 0;
 }
-.close-btn{
-  opacity: 0;
+.close-btn {
   position: absolute;
-  top: 15px;
-  right: 20px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff; 
+  text-align: center;
+  line-height: 30px; 
   cursor: pointer;
-  background: #ab312b;
+  border-radius: 15px;
+  opacity: 1; 
+}
+
+.close-btn::after {
+  content: '×'; 
+  color: #000; 
+  font-size: 24px; 
+}
+.close-btn:hover {
+  background-color: #e0e0e0; /* Slightly darker when hovered for visual feedback */
 }
 /*********************CUSTOM CERTIFICATES*****************************/
 .certi-section{
@@ -724,7 +739,6 @@ button:hover {
 .coming-btn:hover {
   transform: scale(1.1);
 }
-
 @media(max-width:768px){
   .hamburger{
     display: block;

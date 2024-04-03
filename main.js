@@ -27,22 +27,24 @@ const ImageIndex = document.querySelector('.index');
 
 let index = 0;
 
-images.forEach((item, i ) => {
+images.forEach((item, i) => {
   item.addEventListener('click', () => {
-    updateImage(i);
+    const categoryName = item.querySelector('h3').textContent; // Get the category name from the h3 element
+    updateImage(i, categoryName); // Pass the category name to the updateImage function
     popup.classList.toggle('active');
-  })
-})
-const updateImage = (i) => {
-  let path = `images/images${i+1}.jpg`;
+  });
+});
+const updateImage = (i, categoryName) => {
+  let path = `images/image${i+1}.jpg`;
   largeImage.src = path;
-  imageName.innerHTML = path;
+  imageName.innerHTML ="";
   ImageIndex.innerHTML = `0${i+1}`;
   index = i;
 }
 closeBtn.addEventListener('click', () => {
-  popup.classList.toggle('active');
-})
+  popup.classList.remove('active');
+});
+
 
 function toggleAccordion(element) {
   const item = element.parentElement;
