@@ -399,8 +399,14 @@ justify-content: center;
 }
 
 .code-snippet-container {
-  margin-top: 20px;
-  text-align: center;
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    margin-left: 0px;
+    margin-right: 20px;
+  
 }
 
 .code-snippet-container pre {
