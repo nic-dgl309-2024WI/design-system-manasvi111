@@ -686,6 +686,17 @@ button:hover {
 .inline-footerlink{
   text-decoration: underline;
 }
+.coming-soon {
+  display: block; /* Ensure the section is displayed */
+  visibility: visible; /* Ensure the section is visible */
+  padding: 18.5%;
+  text-align: center;
+  /* Add any other styling properties as needed */
+}
+.back-to-home-btn{
+  padding-top: 10px;
+  color: var(--clr-universal);
+}
 @media(max-width:768px){
   .hamburger{
     display: block;
