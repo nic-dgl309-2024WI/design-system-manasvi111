@@ -769,7 +769,177 @@ button:hover {
   .nav-menu.active{
     left: 0;  
   }
-}
+  .carousel {
+    margin-top: 20px;
+    width: 100%;
+    height: auto; /* Adjust height to auto for dynamic resizing */
+    overflow: hidden;
+  }
+  
+  .carousel-content {
+    width: 300%; /* Adjust width for mobile view */
+    height: auto; /* Adjust height to auto for dynamic resizing */
+    display: flex;
+    animation: slide 8s infinite; /* Adjust animation duration */
+  }
+  
+  .carousel-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--clr-universal);
+    color: var(--clr-white-text);
+    text-align: center;
+  }
+  
+  .carousel-part h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-part p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .car-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  
+  .carousel-image {
+    width: 100%; /* Ensure images fill their containers */
+    max-height: 200px; /* Set maximum height for consistent size */
+    object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+  }
+  /*most selling plants and services*/
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+  }
+
+  .card-bs {
+    width: 100%; /* Set width to 100% to occupy full width */
+    max-width: 300px; /* Limit maximum width for better mobile layout */
+    margin-bottom: 20px; /* Add margin between cards */
+  }
+
+  .card-button {
+    width: 50px; /* Set button width to 100% for mobile */
+    max-width: 200px; /* Add maximum width for better mobile layout */
+  }
+  .popup .large-image {
+    max-width: 100%; /* Set maximum width to 100% for mobile devices */
+    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+  }
+  /* Hide the other cards */
+  .card-bs:not(:first-child) {
+    display: none;
+  }
+  /*our categories*/
+  .category-section {
+    margin-top: 40%;
+    text-align: center;
+    padding: 0 20px; /* Add padding to the sides */
+  }
+
+  .container {
+    max-width: 1200px; /* Set max-width for better mobile layout */
+    margin: 0 auto; /* Center the container */
+  }
+
+  .cat-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+
+  .txt-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px; /* Adjust maximum width for better mobile layout */
+    border-radius: 10px;
+    height: auto; /* Set height to auto */
+    background-color: var(--clr-marquee);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px; /* Add margin between cards */
+  }
+
+  .txt-card h3 {
+    padding-top: 20px; /* Adjust padding for smaller screens */
+    padding-bottom: 20px; /* Add padding to the bottom */
+    color: var(--clr-universal);
+    font-size: 24px; /* Adjust font size for smaller screens */
+    text-align: center;
+  }
+
+  .category-section h2 {
+    font-size: 32px; /* Adjust font size for smaller screens */
+    color: var(--clr-universal);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .category-section button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: var(--clr-universal);
+    color: var(--clr-white-text);
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Set button width to 100% for mobile */
+    max-width: 200px; /* Add maximum width for better mobile layout */
+  }
+  /*Certi section*/
+  .certi-section {
+    flex-direction: column; /* Change to a column layout for smaller screens */
+    align-items: center; /* Center align items */
+  }
+
+  .certificate-icon {
+    width: 100%; /* Make the image container full width */
+    margin-bottom: 20px; /* Add some space between the image and form */
+  }
+
+  .contact-inquiries {
+    width: 90%; /* Adjust form width for better fit */
+  }
+
+  .form-control {
+    margin-bottom: 15px; /* Reduce space between form controls */
+  }
+
+  button {
+    width: 100%; /* Make the button full width */
+  }
+  .contact-card-section {
+    flex-direction: column; /* Change to a column layout for smaller screens */
+    padding: 30px; /* Reduce padding for smaller screens */
+  }
+
+  .address,
+  .map {
+    width: 100%; /* Make both elements full width on smaller screens */
+    margin-bottom: 30px; /* Add space between elements */
+  }
+
+  .contact-btn {
+    width: 100%; /* Make the button full width */
+  }
+  }
 :root{
     /*Color variales*/
     --clr-background: #FFFFFF; /*Lightest color of the brown*/
@@ -1435,6 +1605,7 @@ ol {
   .l-container {max-width: 1600px;margin: 100px auto 0px auto;}
   .l-container-lg {max-width: 992px; /* Constrained width for large devices */margin: 0 auto;}
   .l-container-xl {max-width: 1200px; /* Constrained width for extra-large devices */}
+  .l-flex-column {flex-direction: column;}
 }
 /**** height classes ***/
 .h-100 {height: 100px;}
