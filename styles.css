@@ -612,16 +612,45 @@ button:hover {
 .contact-card-section {
   display: flex;
   justify-content: space-between;
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 50px; /* Add some padding around the section */
+}
+
+.address,
+.map {
+  width: 48%; /* Adjust the width to leave some space between elements */
+  padding: 20px; /* Add padding inside the elements */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .address {
-  width: 50%;
-  /* Add styling for the address */
+  background-color: #ffffff; /* White background for the address */
 }
 
 .map {
-  width: 50%;
-  /* Add styling for the map */
+  background-color: #ffffff; /* White background for the map */
+}
+
+/* Style the heading in the address */
+.address h3 {
+  color: #333333; /* Dark gray text color */
+  font-size: 24px; /* Larger font size */
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Style the address text */
+.address p {
+  color: #666666; /* Medium gray text color */
+  font-size: 18px; /* Medium font size */
+}
+
+/* Style the map iframe */
+.map iframe {
+  width: 100%; /* Make the map iframe fill the container */
+  height: 100%; /* Make the map iframe fill the container */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Add rounded corners */
 }
 
 @media(max-width:768px){
