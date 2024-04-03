@@ -61,3 +61,16 @@ function toggleAccordion(element) {
   body.style.maxHeight = isOpen ? '0' : body.scrollHeight + 'px'; // Change '1000px' to a desired max-height value
   element.querySelector('.accordion-icon').textContent = isOpen ? '+' : '-';
 }
+const testiCards = document.querySelectorAll('.testi-card');
+
+testiCards.forEach(card => {
+  card.addEventListener('mouseenter', () => {
+    testiCards.forEach(otherCard => {
+      if (otherCard !== card) {
+        otherCard.classList.remove('hovered');
+      }
+    });
+    card.classList.add('hovered');
+  });
+});
+

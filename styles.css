@@ -163,15 +163,19 @@ a{
   margin-bottom: 20px;
 }
 
-.carousel-part button {
+.car-btn{
   padding: 10px 20px;
   background-color: white;
   color: black;
   border: none;
   font-size: 18px;
   cursor: pointer;
+  width: auto;
 }
-
+.car-btn:hover{
+  background-color: var(--clr-dgray);
+  color: var(--clr-white-text);
+}
 .carousel-image {
   display: flex;
   background-color: var(--clr-marquee);
@@ -220,7 +224,7 @@ a{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.card h3 {
+.card-cname{
   margin-top: 20px;
   color: #ab312b;
 }
@@ -235,20 +239,7 @@ a{
   transition: background-color 0.3s ease;
   width: 35%;
 }
-.button{
-  margin-top: 30px;
-  padding: 10px 20px;
-  background-color: var(--clr-universal);
-  color: var(--clr-white-text);
-  border: none;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  width: 35%;
-}
-.button:hover{
-  transform: scale(1.1);
-}
+
 .card-button:hover {
   transform: scale(1.1);
 }
@@ -529,17 +520,82 @@ button:hover {
   color: var(--clr-universal);
   text-decoration: underline;
 }
-/*Testimonials cards*/
-.card-body{
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  position: absolute;
-  background: var(--clr-universal);
-  backdrop-filter: blur(5px);
-  border-radius: 15px;
+.faq-btn{
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: var(--clr-universal);
+  color: var(--clr-white-text);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 35%;
 }
+
+.faq-btn:hover {
+  transform: scale(1.1);
+}
+.testi-card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  margin: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-body {
+  transform: translateY(0);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-sub-title {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.card-info {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 @media(max-width:768px){
   .hamburger{
     display: block;
