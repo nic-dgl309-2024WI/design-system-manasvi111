@@ -689,13 +689,35 @@ button:hover {
 .coming-soon {
   display: block; /* Ensure the section is displayed */
   visibility: visible; /* Ensure the section is visible */
-  padding: 18.5%;
+  padding: 17%;
   text-align: center;
-  /* Add any other styling properties as needed */
+  color: var(--clr-universal);
+  display: block;
+}
+.coming-heading{
+  font-size: var(--ft-ptsize);
+}
+.coming-info{
+  padding-top: 2px;
+  font-size: var(--ft-nnsize);
 }
 .back-to-home-btn{
-  padding-top: 10px;
+  padding-top: 40%;
   color: var(--clr-universal);
+}
+.coming-btn{
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: var(--clr-universal);
+  color: var(--clr-white-text);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 35%;
+}
+.coming-btn:hover {
+  transform: scale(1.1);
 }
 @media(max-width:768px){
   .hamburger{
