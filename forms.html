@@ -118,15 +118,31 @@
     <br>
     <div class="code-snippet-container">
         <pre id="codeSnippet">
-          &lt;div class="breadcrumb-container bg-primary-background"&gt;
-              &lt;nav aria-label="Breadcrumb"&gt;
-                  &lt;ul class="breadcrumb"&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Category&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;Current Page&lt;/li&gt;
-                  &lt;/ul&gt;
-              &lt;/nav&gt;
-          &lt;/div&gt;
+            &lt;form class="contact-inquiries"&gt;
+            &lt;div class="form-control"&gt;
+              &lt;label&gt;Your Name (required)&lt;/label&gt;
+              &lt;input type="text"/&gt;
+            &lt;/div&gt;
+            &lt;div class="form-control"&gt;
+              &lt;label&gt;Your Email (required)&lt;/label&gt;
+              &lt;input type="text"/&gt;
+            &lt;/div&gt;
+            &lt;div class="form-control"&gt;
+              &lt;label&gt;Certificate Type (required)&lt;/label&gt;
+              &lt;select id="certi"&gt;
+                &lt;option value="certi"&gt;Select Type&lt;/option&gt;
+                &lt;option value="general-certi"&gt;General Certi&lt;/option&gt;
+                &lt;option value="custom-certi"&gt;Customized Certi&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+            &lt;div class="form-control"&gt;
+              &lt;label&gt;Comments&lt;/label&gt;
+              &lt;input type="text"/&gt;
+            &lt;/div&gt;
+            &lt;div class="form-control"&gt;
+              &lt;button&gt;Submit&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
         </pre>
         <button onclick="copyToClipboard()">Copy</button>
       </div>
