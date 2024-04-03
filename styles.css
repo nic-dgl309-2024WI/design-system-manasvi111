@@ -609,6 +609,21 @@ button:hover {
 .testi-btn:hover {
   transform: scale(1.1);
 }
+.contact-card-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address {
+  width: 50%;
+  /* Add styling for the address */
+}
+
+.map {
+  width: 50%;
+  /* Add styling for the map */
+}
+
 @media(max-width:768px){
   .hamburger{
     display: block;
