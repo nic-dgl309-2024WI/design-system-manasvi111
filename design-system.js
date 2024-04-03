@@ -27,4 +27,17 @@ document.addEventListener("DOMContentLoaded", function () {
     cancel.style.display =
       cancel.style.display === "none" ? "inline-block" : "none";
   }
+
+  
+function copyToClipboard() {
+  // Get the text from the pre element
+  const textToCopy = document.getElementById("codeSnippet").innerText;
+  
+  // Use the Clipboard API to copy the text
+  navigator.clipboard.writeText(textToCopy).then(() => {
+    alert("Code copied to clipboard!");
+  }).catch(err => {
+    console.error("Failed to copy text: ", err);
+  });
+}
   
