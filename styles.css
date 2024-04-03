@@ -372,7 +372,7 @@ a{
 .certi-section{
   padding: 10px;
   display: flex;
-  margin-top: 30px;
+  
   text-align: center;
 }
 .heading {
@@ -627,6 +627,7 @@ button:hover {
 
 .address {
   background-color: #ffffff; /* White background for the address */
+  width: 600px;
 }
 
 .map {
@@ -653,7 +654,20 @@ button:hover {
   border: none; /* Remove border */
   border-radius: 10px; /* Add rounded corners */
 }
-
+.contact-btn{
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: var(--clr-universal);
+  color: var(--clr-white-text);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 35%;
+}
+.contact-btn:hover {
+  transform: scale(1.1);
+}
 
 @media(max-width:768px){
   .hamburger{
