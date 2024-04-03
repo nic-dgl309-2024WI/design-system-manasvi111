@@ -257,7 +257,7 @@ th {
   
 }
 .carousel-container{
-  max-width: 900px;
+  max-width: 800px;
 }
 /* Media query for screens larger than 700px */
 @media screen and (min-width: 700px) {
