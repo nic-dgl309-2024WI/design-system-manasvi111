@@ -550,7 +550,7 @@ button:hover {
   font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 35%;
+  width: 45%;
 }
 
 .faq-section__button:hover {
@@ -619,7 +619,7 @@ button:hover {
 }
 .testimonials__button{
   margin-top: 30px;
-  margin-left: 40%;
+  margin-left: 35%;
   
   background-color: var(--clr-universal);
   color: var(--clr-white-text);
@@ -627,7 +627,7 @@ button:hover {
   font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 20%;
+  width: 30%;
 }
 .testimonials__button:hover {
   transform: scale(1.1);
