@@ -17,7 +17,7 @@ marquee.addEventListener('mouseenter', function() {
 marquee.addEventListener('mouseleave', function() {
   this.start();
 });
-const images = [...document.querySelectorAll('.txt-card')];
+const images = [...document.querySelectorAll('.category-card')];
 // pop up
 const popup = document.querySelector('.popup');
 const closeBtn = document.querySelector('.close-btn');
@@ -48,21 +48,22 @@ closeBtn.addEventListener('click', () => {
 
 function toggleAccordion(element) {
   const item = element.parentElement;
-  const items = document.querySelectorAll('.accordion-item');
+  const items = document.querySelectorAll('.faq-section__accordion-item');
 
   for (const otherItem of items) {
     if (otherItem !== item) {
-      otherItem.querySelector('.accordion-body').style.maxHeight = '0';
-      otherItem.querySelector('.accordion-icon').textContent = '+';
+      otherItem.querySelector('.faq-section__accordion-body').style.maxHeight = '0';
+      otherItem.querySelector('.faq-section__accordion-icon').textContent = '+';
     }
   }
 
-  const body = item.querySelector('.accordion-body');
+  const body = item.querySelector('.faq-section__accordion-body');
   const isOpen = parseInt(body.style.maxHeight) > 0;
 
   body.style.maxHeight = isOpen ? '0' : body.scrollHeight + 'px'; // Change '1000px' to a desired max-height value
-  element.querySelector('.accordion-icon').textContent = isOpen ? '+' : '-';
+  element.querySelector('.faq-section__accordion-icon').textContent = isOpen ? '+' : '-';
 }
+
 const testiCards = document.querySelectorAll('.testi-card');
 
 testiCards.forEach(card => {

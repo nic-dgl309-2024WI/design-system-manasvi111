@@ -56,52 +56,54 @@
   </header>
   <!--hero-Carousel-->
   <div class="carousel">
-    <div class="carousel-content">
-      <div class="carousel-part">
-        <div class="carousel-text">
-          <h2>Welcome to Outback Nursery</h2>
-          <p>We are known for our special Tress and Scrubs.</p>
-          <button class="car-btn">Discover our Latest Arrivals</button>
+    <div class="carousel__content">
+      <div class="carousel__part">
+        <div class="carousel__text">
+          <h2 class="carousel__title">Welcome to Outback Nursery</h2>
+          <p class="carousel__description">We are known for our special Trees and Shrubs.</p>
+          <button class="carousel__button">Discover our Latest Arrivals</button>
         </div>
-        <div class="carousel-image">
+        <div class="carousel__image">
           <img src="images/carousel1.jpg" alt="Image">
         </div>
       </div>
-      <div class="carousel-part">
-        <div class="carousel-text">
-          <h2>Checkout our New Offer!</h2>
-          <p>We have a new offer for our existing customers.</p>
-          <a href="coming-soon.html"> <button class="car-btn">Discover our Latest Arrivals</button> </a>
+      <div class="carousel__part">
+        <div class="carousel__text">
+          <h2 class="carousel__title">Checkout our New Offer!</h2>
+          <p class="carousel__description">We have a new offer for our existing customers.</p>
+          <a href="coming-soon.html" class="carousel__link"><button class="carousel__button">Discover our Latest Arrivals</button></a>
         </div>
-        <div class="carousel-image">
+        <div class="carousel__image">
           <img src="images/carousel2.jpg" alt="Image">
         </div>
       </div>
     </div>
-  </div>
+  </div>  
 
   <section class="card-section l-mx-3" id="products">
-    <h2>Most selling plants and services</h2>
-    <div class="card-container">
-      <div class="card-bs">
-        <img src="images/delievery.jpg" alt="Image 1">
-        <h3 class="card-cname"> HOME DELIEVERY</h3>
+    <h2 class="card-section__title">Most selling plants and services</h2>
+    <div class="card-section__container">
+      <div class="card">
+        <img src="images/delievery.jpg" alt="Image 1" class="card__image">
+        <h3 class="card__name">HOME DELIVERY</h3>
       </div>
-      <div class="card-bs">
-        <img src="images/trees.jpg" alt="Image 2">
-        <h3 class="card-cname">SPECIAL TREES</h3>
+      <div class="card">
+        <img src="images/trees.jpg" alt="Image 2" class="card__image">
+        <h3 class="card__name">SPECIAL TREES</h3>
       </div>
-      <div class="card-bs">
-        <img src="images/shrub3.webp" alt="Image 3">
-        <h3 class="card-cname">BEAUTIFUL SHRUBS</h3>
+      <div class="card">
+        <img src="images/shrub3.webp" alt="Image 3" class="card__image">
+        <h3 class="card__name">BEAUTIFUL SHRUBS</h3>
       </div>
     </div>
-    <a href="coming-soon.html"> <button class="card-button">Explore our Best Sellers</button> </a> 
-  </section>
+    <a href="coming-soon.html" class="card-section__link">
+      <button class="card-section__button">Explore our Best Sellers</button>
+    </a>
+  </section>  
   
   <section class="category-section l-mx-3" id="our-categories">
     
-    <h2>OUR CATEGORIES</h2>
+    <h2 class="category-section__title">OUR CATEGORIES</h2>
     <!--Pop up-->
     <div class="popup">
       <!--Top bar-->
@@ -114,52 +116,52 @@
       <h1 class="index">01</h1>
     </div>
     <div class="image-name"></div>
-    <div class="cat-container">
-      <div class="txt-card">
-        <h3>Conifers</h3>
+    <div class="category-section__container">
+      <div class="category-card">
+        <h3 class="category-card__name">Conifers</h3>
       </div>
-      <div class="txt-card">
-        <h3>Deciduos</h3>
+      <div class="category-card">
+        <h3 class="category-card__name">Deciduos</h3>
       </div>
-      <div class="txt-card">
-        <h3>Evergreen</h3>
+      <div class="category-card">
+        <h3 class="category-card__name">Evergreen</h3>
       </div>
-      <div class="txt-card">
-        <h3>Grasses</h3>
+      <div class="category-card">
+        <h3 class="category-card__name">Grasses</h3>
       </div>
       </div>
-      <div class="cat-container">
-      <div class="txt-card">
-        <h3>Bamboo</h3>
+      <div class="category-section__container">
+      <div class="category-card">
+        <h3 class="category-card__name">Bamboo</h3>
       </div>
-      <div class="txt-card">
-        <h3>Vines</h3>
+      <div class="category-card">
+        <h3 class="category-card__name">Vines</h3>
       </div>
-      <div class="txt-card">
-        <h3>Edibles</h3>
+      <div class="category-card">
+        <h3 class="category-card__name">Edibles</h3>
       </div>
-      <div class="txt-card">
-        <h3>Japanes Trees</h3>
+      <div class="category-card">
+        <h3 class="category-card__name">Japanes Trees</h3>
       </div>
     </div>
-    <a href="coming-soon.html">  <button class="card-button">Get Your Greenary! </button> </a>
+    <a href="coming-soon.html">  <button class="category-section__button">Get Your Greenary! </button> </a>
   </div>
   </section>
 
   <h2 class="heading">Custom gift certificates</h2>
   <section class="certi-section l-mx-3">
   
-    <img src="images/certificate.png" alt="Certificate Icon" class="certificate-icon">
-        <form class="contact-inquiries">
-          <div class="form-control">
+    <img src="images/certificate.png" alt="Certificate Icon" class="certi-section__certificate-icon">
+        <form class="certi-section__contact-inquiries">
+          <div class="certi-section__form-control">
             <label>Your Name (required)</label>
             <input type="text"/>
           </div>
-          <div class="form-control">
+          <div class="certi-section__form-control">
             <label>Your Email (required)</label>
             <input type="text"/>
           </div>
-          <div class="form-control">
+          <div class="certi-section__form-control">
             <label>Certificate Type (required)</label>
             <select id="certi">
               <option value="certi">Select Type</option>
@@ -168,39 +170,39 @@
             </select>
             
           </div>
-          <div class="form-control">
+          <div class="certi-section__form-control">
             <label>Comments</label>
             <input type="text"/>
           </div>
-          <div class="form-control">
+          <div class="certi-section__form-control">
             <button>Submit</button>
           </div>
         </form>
     </section>
     <br>
     <section class="faq-section" id="resources">
-      <h2 class="heading">FAQ</h2>
-      <div class="accordeon u-center bg-white">
+      <h2 class="faq-section__heading">FAQ</h2>
+      <div class="faq-section__accordeon u-center bg-white">
 
-        <div class="accordion">
-          <div class="accordion-item">
-            <button class="accordion-header" onclick="toggleAccordion(this)">
-                <span class="acc-heading">What types of plants do you offer?</span>
-                <span class="accordion-icon">+</span>
+        <div class="faq-section__accordion">
+          <div class="faq-section__accordion-item">
+            <button class="faq-section__accordion-header" onclick="toggleAccordion(this)">
+                <span class="faq-section__acc-heading">What types of plants do you offer?</span>
+                <span class="faq-section__accordion-icon">+</span>
             </button>
-            <div class="accordion-body">
-                <p class="acc-content ">
+            <div class="faq-section__accordion-body">
+                <p class="faq-section__acc-content ">
                   At our garden nursery, we offer a wide variety of plants, including flowers, shrubs, trees, succulents, vegetables, and herbs. Our selection caters to both indoor and outdoor gardening enthusiasts<a href="#our-categories" class="inline-link">Check our various categories.</a>
                 </p>
             </div>
         </div>
-            <div class="accordion-item">
-                <button class="accordion-header" onclick="toggleAccordion(this)">
-                    <span class="acc-heading">What care tips do you recommend for specific plants?</span>
-                    <span class="accordion-icon">+</span>
+            <div class="faq-section__accordion-item">
+                <button class="faq-section__accordion-header" onclick="toggleAccordion(this)">
+                    <span class="faq-section__acc-heading">What care tips do you recommend for specific plants?</span>
+                    <span class="faq-section__accordion-icon">+</span>
                 </button>
-                <div class="accordion-body">
-                    <p class="acc-content ">
+                <div class="faq-section__accordion-body">
+                    <p class="faq-section__acc-content ">
                         our mission is to cultivate joy, sustainability, and growth through the timeless art of
                         gardening. We are dedicated to nurturing a deep connection between people and the planet by
                         providing an exceptional selection of high-quality plants, expert gardening advice, and
@@ -211,13 +213,13 @@
                     </p>
                 </div>
             </div>
-            <div class="accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">
-                  <span class="acc-heading">How do I choose the right plants for my garden?</span>
-                  <span class="accordion-icon">+</span>
+            <div class="faq-section__accordion-item">
+              <button class="faq-section__accordion-header" onclick="toggleAccordion(this)">
+                  <span class="faq-section__acc-heading">How do I choose the right plants for my garden?</span>
+                  <span class="faq-section__accordion-icon">+</span>
               </button>
-              <div class="accordion-body">
-                  <p class="acc-content ">
+              <div class="faq-section__accordion-body">
+                  <p class="faq-section__acc-content ">
 
                       our mission is to cultivate joy, sustainability, and growth through the timeless art of
                       gardening. We are dedicated to nurturing a deep connection between people and the planet by
@@ -229,48 +231,48 @@
                   </p>
               </div>
           </div>
-          <a href="coming-soon.html"> <button class="faq-btn">Other Guidelines</button></a>
+          <a href="coming-soon.html"> <button class="faq-section__button">Other Guidelines</button></a>
     </section>
 <br>
 <h2 class="heading" id="aboutus">TESTIMONIALS</h2>
 <section>
   <div class="testi-card-section">
   <div class="card">
-    <img src="images/person1.jpeg" class="card-img" alt="">
+    <img src="images/person1.jpeg" class="testimonials__card-img" alt="">
     <div class="card-body">
-      <h1 class="card-title">Mark Angelo</h1>
-      <p class="card-sub-title">Researcher</p>
-      <p class="card-info">"Absolutely thrilled with the service! The team at Outback Nursery went above and beyond to ensure our needs were met. From start to finish, they were professional, attentive, and delivered exceptional results. Highly recommend their services to anyone looking for top-notch quality and customer care."</p>
+      <h1 class="testimonials__card-title">Mark Angelo</h1>
+      <p class="testimonials__card-sub-title">Researcher</p>
+      <p class="testimonials__card-info">"Absolutely thrilled with the service! The team at Outback Nursery went above and beyond to ensure our needs were met. From start to finish, they were professional, attentive, and delivered exceptional results. Highly recommend their services to anyone looking for top-notch quality and customer care."</p>
     </div>
   </div>
   <div class="card">
-    <img src="images/person2.jpeg" class="card-img" alt="">
+    <img src="images/person2.jpeg" class="testimonials__card-img" alt="">
     <div class="card-body">
-      <h1 class="card-title">Paul Dodds</h1>
-      <p class="card-sub-title">Retired Army Ofiicer</p>
-      <p class="card-info">"I can't say enough good things about [Company Name]. From the moment we contacted them, we knew we were in good hands. Their team is knowledgeable, responsive, and genuinely cares about their clients' success. They exceeded our expectations in every way and played a significant role in helping us achieve our objectives. Thank you for your exceptional service!"</p>
+      <h1 class="testimonials__card-title">Paul Dodds</h1>
+      <p class="testimonials__card-sub-title">Retired Army Ofiicer</p>
+      <p class="testimonials__card-info">"I can't say enough good things about Outback Nursery. From the moment we contacted them, we knew we were in good hands. Their team is knowledgeable, responsive, and genuinely cares about their clients' success. They exceeded our expectations in every way and played a significant role in helping us achieve our objectives. Thank you for your exceptional service!"</p>
     </div>
   </div>
   <div class="card">
-    <img src="images/person3.jpeg" class="card-img" alt="">
+    <img src="images/person3.jpeg" class="testimonials__card-img" alt="">
     <div class="card-body">
-      <h1 class="card-title">Mike Richardson</h1>
-      <p class="card-sub-title">Home Gardener</p>
-      <p class="card-info">"I can't say enough good things about [Company Name]. From the moment we contacted them, we knew we were in good hands. Their team is knowledgeable, responsive, and genuinely cares about their clients' success. They exceeded our expectations in every way and played a significant role in helping us achieve our objectives. Thank you for your exceptional service!"</p>
+      <h1 class="testimonials__card-title">Mike Richardson</h1>
+      <p class="testimonials__card-sub-title">Home Gardener</p>
+      <p class="testimonials__card-info">"I can't say enough good things about Outback Nursery. From the moment we contacted them, we knew we were in good hands. Their team is knowledgeable, responsive, and genuinely cares about their clients' success. They exceeded our expectations in every way and played a significant role in helping us achieve our objectives. Thank you for your exceptional service!"</p>
     </div>
   </div>
 </div>
-  <a href="coming-soon.html"> <button class="testi-btn">Discover our story</button></a>
+  <a href="coming-soon.html"> <button class="testimonials__button">Discover our story</button></a>
 </section>
 
 <h2 class="heading" id="contactus">CONTACT US</h2>
 <section class="contact-card-section l-mx-3">
-  <div class="address">
-    <h3>Our Address</h3>
-    <p>6016 Headquarters Rd, </p>
-    <p>Courtenay, BC V9J 1M7</p>
-    <p>Canada</p>
-    <a href="coming-soon.html"> <button class="contact-btn">Reach out today!</button></a>
+  <div class="contact__address">
+    <h3 class="contact__title">Our Address</h3>
+    <p class="contact__info">6016 Headquarters Rd, </p>
+    <p class="contact__info">Courtenay, BC V9J 1M7</p>
+    <p class="contact__info">Canada</p>
+    <a href="coming-soon.html"> <button class="contact__button">Reach out today!</button></a>
   </div>
   <div class="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2577.807370234839!2d-125.05341972363956!3d49.75206817146728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548810dc18bfe329%3A0xa080148546db78f5!2sOutback%20Nursery%20%26%20Garden%20Centre!5e0!3m2!1sen!2sca!4v1712112052901!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -278,8 +280,8 @@
 </section>
 
 <footer class="footer">
-  <div class="footer-container">
-    <p class="footer-info">&copy; 2024 Outback Nursery. All rights reserved.<a class="inline-footerlink" href="coming-soon.html"> Privary policy</a></p>
+  <div class="footer__container">
+    <p class="footer__info">&copy; 2024 Outback Nursery. All rights reserved.<a class="inline-footerlink" href="coming-soon.html"> Privary policy</a></p>
   </div>
 </footer>
 
