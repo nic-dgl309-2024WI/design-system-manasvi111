@@ -455,6 +455,17 @@ justify-content: center;
   margin-left: 25%;
   margin-top: 7%; 
 }
+.home-heading{
+  margin-left: 30%;
+  margin-top: 7%; 
+}
+.home-content {
+  margin-left: 30%;
+  margin-top: 3%; 
+  max-width: 80ch;
+  font-family: var(--ff-pt);
+}
+
 .u-universal-bg{
   display: flex;
   color: #FFFFFF;
