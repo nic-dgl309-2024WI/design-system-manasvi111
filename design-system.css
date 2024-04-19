@@ -440,6 +440,10 @@ justify-content: center;
 .color-info {
   
 }
+.img-container{
+  margin-left: 25%;
+  margin-top: 7%;
+}
 .u-universal-bg{
   display: flex;
   color: #FFFFFF;
